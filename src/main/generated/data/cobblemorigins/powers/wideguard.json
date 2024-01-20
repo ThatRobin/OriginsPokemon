@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Protects allies from multi-target moves this turn.",
+  "move_type": "Rock",
+  "name": "Wide Guard"
+}

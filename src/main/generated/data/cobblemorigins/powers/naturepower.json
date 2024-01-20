@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Attack depends on terrain (default Tri Attack).",
+  "move_type": "Normal",
+  "name": "Nature Power"
+}

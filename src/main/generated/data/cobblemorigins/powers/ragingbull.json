@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Destroys screens. Type depends on user's form.",
+  "move_type": "Normal",
+  "name": "Raging Bull"
+}

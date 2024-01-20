@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "10% chance to lower the target's Speed by 1.",
+  "move_type": "Normal",
+  "name": "Constrict"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "10% chance to freeze. Super effective on Water.",
+  "move_type": "Ice",
+  "name": "Freeze-Dry"
+}

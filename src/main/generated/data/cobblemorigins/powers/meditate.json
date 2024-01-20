@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises the user's Attack by 1.",
+  "move_type": "Psychic",
+  "name": "Meditate"
+}

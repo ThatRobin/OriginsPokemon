@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises the user's Sp. Atk by 2.",
+  "move_type": "Dark",
+  "name": "Nasty Plot"
+}

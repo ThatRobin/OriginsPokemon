@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises the user's evasiveness by 1.",
+  "move_type": "Normal",
+  "name": "Double Team"
+}

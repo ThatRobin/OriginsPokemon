@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "-1 evasion; clears terrain and hazards on both sides.",
+  "move_type": "Flying",
+  "name": "Defog"
+}

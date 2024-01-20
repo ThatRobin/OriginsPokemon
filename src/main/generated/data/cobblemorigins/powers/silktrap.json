@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Protects from damaging attacks. Contact: -1 Spe.",
+  "move_type": "Bug",
+  "name": "Silk Trap"
+}

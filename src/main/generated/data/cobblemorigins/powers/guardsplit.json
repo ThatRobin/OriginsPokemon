@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Averages Defense and Sp. Def stats with target.",
+  "move_type": "Psychic",
+  "name": "Guard Split"
+}

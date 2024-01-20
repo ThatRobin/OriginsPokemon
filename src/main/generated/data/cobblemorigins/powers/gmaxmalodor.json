@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Base move affects power. Foes: poisoned.",
+  "move_type": "Poison",
+  "name": "G-Max Malodor"
+}

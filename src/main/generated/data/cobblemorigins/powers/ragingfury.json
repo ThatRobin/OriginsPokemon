@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Lasts 2-3 turns. Confuses the user afterwards.",
+  "move_type": "Fire",
+  "name": "Raging Fury"
+}

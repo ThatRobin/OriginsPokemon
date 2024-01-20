@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Target gets -1 Spe and becomes weaker to Fire.",
+  "move_type": "Rock",
+  "name": "Tar Shot"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Changes the target's type to Water.",
+  "move_type": "Water",
+  "name": "Soak"
+}

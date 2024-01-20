@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "High critical hit ratio. 10% chance to burn.",
+  "move_type": "Fire",
+  "name": "Blaze Kick"
+}

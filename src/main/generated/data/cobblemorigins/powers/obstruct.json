@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Protects from damaging attacks. Contact: -2 Def.",
+  "move_type": "Dark",
+  "name": "Obstruct"
+}

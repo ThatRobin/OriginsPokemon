@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Digs underground turn 1, strikes turn 2.",
+  "move_type": "Ground",
+  "name": "Dig"
+}

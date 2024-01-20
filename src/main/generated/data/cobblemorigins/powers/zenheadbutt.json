@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "20% chance to make the target flinch.",
+  "move_type": "Psychic",
+  "name": "Zen Headbutt"
+}

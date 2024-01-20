@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "10% chance to lower the foe(s) Sp. Def by 1.",
+  "move_type": "Poison",
+  "name": "Acid"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "5 turns. Grounded: +Psychic power, priority-safe.",
+  "move_type": "Psychic",
+  "name": "Psychic Terrain"
+}

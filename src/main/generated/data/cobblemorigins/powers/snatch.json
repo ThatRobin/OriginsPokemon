@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "User steals certain support moves to use itself.",
+  "move_type": "Dark",
+  "name": "Snatch"
+}

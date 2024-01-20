@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Always results in a critical hit.",
+  "move_type": "Ice",
+  "name": "Frost Breath"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "30% chance to poison the target.",
+  "move_type": "Poison",
+  "name": "Poison Jab"
+}

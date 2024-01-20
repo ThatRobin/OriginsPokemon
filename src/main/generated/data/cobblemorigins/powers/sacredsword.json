@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Ignores the target's stat stage changes.",
+  "move_type": "Fighting",
+  "name": "Sacred Sword"
+}

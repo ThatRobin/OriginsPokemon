@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "The target immediately uses its last used move.",
+  "move_type": "Psychic",
+  "name": "Instruct"
+}

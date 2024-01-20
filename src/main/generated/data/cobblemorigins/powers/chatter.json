@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "100% chance to confuse the target.",
+  "move_type": "Flying",
+  "name": "Chatter"
+}

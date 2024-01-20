@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Physical if user's Atk > Sp. Atk. Ignores Abilities.",
+  "move_type": "Psychic",
+  "name": "Photon Geyser"
+}

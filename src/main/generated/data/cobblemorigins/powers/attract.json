@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "A target of the opposite gender gets infatuated.",
+  "move_type": "Normal",
+  "name": "Attract"
+}

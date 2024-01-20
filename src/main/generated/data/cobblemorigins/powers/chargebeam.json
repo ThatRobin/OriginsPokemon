@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "70% chance to raise the user's Sp. Atk by 1.",
+  "move_type": "Electric",
+  "name": "Charge Beam"
+}

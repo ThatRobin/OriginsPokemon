@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Causes the target to become confused.",
+  "move_type": "Normal",
+  "name": "Supersonic"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "User and foe fly up turn 1. Damages on turn 2.",
+  "move_type": "Flying",
+  "name": "Sky Drop"
+}

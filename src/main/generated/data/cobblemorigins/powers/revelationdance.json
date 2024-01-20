@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Type varies based on the user's primary type.",
+  "move_type": "Normal",
+  "name": "Revelation Dance"
+}

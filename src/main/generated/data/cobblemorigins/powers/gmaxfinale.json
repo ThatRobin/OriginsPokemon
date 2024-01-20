@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Base move affects power. Allies: +1/6 max HP.",
+  "move_type": "Fairy",
+  "name": "G-Max Finale"
+}

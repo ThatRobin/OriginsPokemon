@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Traps and damages the target for 4-5 turns.",
+  "move_type": "Normal",
+  "name": "Bind"
+}

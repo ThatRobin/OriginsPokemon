@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "High critical hit ratio.",
+  "move_type": "Ghost",
+  "name": "Shadow Claw"
+}

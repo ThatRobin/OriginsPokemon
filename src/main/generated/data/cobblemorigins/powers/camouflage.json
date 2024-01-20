@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Changes user's type by terrain (default Normal).",
+  "move_type": "Normal",
+  "name": "Camouflage"
+}

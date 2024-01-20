@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "5 turns: no Ground immunities, 1.67x accuracy.",
+  "move_type": "Psychic",
+  "name": "Gravity"
+}

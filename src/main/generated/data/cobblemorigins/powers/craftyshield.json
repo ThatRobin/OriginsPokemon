@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Protects allies from Status moves this turn.",
+  "move_type": "Fairy",
+  "name": "Crafty Shield"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "10% chance to lower the target's Sp. Def by 1.",
+  "move_type": "Grass",
+  "name": "Energy Ball"
+}

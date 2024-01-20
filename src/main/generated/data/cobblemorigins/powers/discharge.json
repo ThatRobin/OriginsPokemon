@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "30% chance to paralyze adjacent Pokemon.",
+  "move_type": "Electric",
+  "name": "Discharge"
+}

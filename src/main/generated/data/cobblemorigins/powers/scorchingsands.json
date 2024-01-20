@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "30% chance to burn the target. Thaws target.",
+  "move_type": "Ground",
+  "name": "Scorching Sands"
+}

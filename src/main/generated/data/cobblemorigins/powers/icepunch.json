@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "10% chance to freeze the target.",
+  "move_type": "Ice",
+  "name": "Ice Punch"
+}

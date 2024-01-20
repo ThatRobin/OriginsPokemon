@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Less power as user's HP decreases. Hits foe(s).",
+  "move_type": "Fire",
+  "name": "Eruption"
+}

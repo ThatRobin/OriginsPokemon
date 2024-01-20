@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises the user's evasiveness by 2.",
+  "move_type": "Normal",
+  "name": "Minimize"
+}

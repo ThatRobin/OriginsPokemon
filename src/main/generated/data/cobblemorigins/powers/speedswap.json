@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Swaps Speed stat with target.",
+  "move_type": "Psychic",
+  "name": "Speed Swap"
+}

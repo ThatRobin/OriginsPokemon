@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "30% chance to paralyze. Can't miss in rain.",
+  "move_type": "Electric",
+  "name": "Thunder"
+}

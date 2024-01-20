@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Deals 1/8 max HP each turn; 1/4 on Steel, Water.",
+  "move_type": "Rock",
+  "name": "Salt Cure"
+}

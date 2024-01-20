@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "If an opponent knocks out the user, it also faints.",
+  "move_type": "Ghost",
+  "name": "Destiny Bond"
+}

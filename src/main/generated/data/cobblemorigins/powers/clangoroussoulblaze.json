@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises the user's Atk/Def/SpAtk/SpDef/Spe by 1.",
+  "move_type": "Dragon",
+  "name": "Clangorous Soulblaze"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises the user's Sp. Atk, Sp. Def, Speed by 1.",
+  "move_type": "Bug",
+  "name": "Quiver Dance"
+}

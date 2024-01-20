@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "If hit by an attack, returns 1.5x damage.",
+  "move_type": "Steel",
+  "name": "Metal Burst"
+}

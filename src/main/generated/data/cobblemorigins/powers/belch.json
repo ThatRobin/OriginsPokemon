@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Cannot be selected until the user eats a Berry.",
+  "move_type": "Poison",
+  "name": "Belch"
+}

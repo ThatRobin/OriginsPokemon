@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "+2 Attack, Sp. Atk, Speed for 1/2 user's max HP.",
+  "move_type": "Normal",
+  "name": "Fillet Away"
+}

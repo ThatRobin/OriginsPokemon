@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Has 1/4 recoil.",
+  "move_type": "Electric",
+  "name": "Wild Charge"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Does damage equal to 1/2 target's current HP.",
+  "move_type": "Dark",
+  "name": "Ruination"
+}

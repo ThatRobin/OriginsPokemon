@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Hits adjacent Pokemon. Power varies; 2x on Dig.",
+  "move_type": "Ground",
+  "name": "Magnitude"
+}

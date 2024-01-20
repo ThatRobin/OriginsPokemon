@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Lowers the target's Sp. Def by 2.",
+  "move_type": "Steel",
+  "name": "Metal Sound"
+}

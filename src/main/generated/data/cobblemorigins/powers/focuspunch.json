@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Fails if the user takes damage before it hits.",
+  "move_type": "Fighting",
+  "name": "Focus Punch"
+}

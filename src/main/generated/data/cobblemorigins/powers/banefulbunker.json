@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Protects from moves. Contact: poison.",
+  "move_type": "Poison",
+  "name": "Baneful Bunker"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Damages Pokemon next to the target as well.",
+  "move_type": "Fire",
+  "name": "Flame Burst"
+}

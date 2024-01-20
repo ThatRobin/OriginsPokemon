@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises the user's Attack, Defense, Speed by 1.",
+  "move_type": "Fighting",
+  "name": "Victory Dance"
+}

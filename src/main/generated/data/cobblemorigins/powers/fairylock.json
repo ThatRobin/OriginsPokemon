@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Prevents all Pokemon from switching next turn.",
+  "move_type": "Fairy",
+  "name": "Fairy Lock"
+}

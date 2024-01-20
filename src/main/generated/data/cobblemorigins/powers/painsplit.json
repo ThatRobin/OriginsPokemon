@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Shares HP of user and target equally.",
+  "move_type": "Normal",
+  "name": "Pain Split"
+}

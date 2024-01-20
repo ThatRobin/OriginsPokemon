@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Uses target's Attack stat in damage calculation.",
+  "move_type": "Dark",
+  "name": "Foul Play"
+}

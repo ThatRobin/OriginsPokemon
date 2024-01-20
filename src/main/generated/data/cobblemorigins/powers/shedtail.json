@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "User takes 1/2 its max HP to pass a substitute.",
+  "move_type": "Normal",
+  "name": "Shed Tail"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Poisons the target.",
+  "move_type": "Poison",
+  "name": "Poison Powder"
+}

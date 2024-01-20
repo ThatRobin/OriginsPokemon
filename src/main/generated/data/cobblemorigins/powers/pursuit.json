@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "If a foe is switching out, hits it at 2x power.",
+  "move_type": "Dark",
+  "name": "Pursuit"
+}

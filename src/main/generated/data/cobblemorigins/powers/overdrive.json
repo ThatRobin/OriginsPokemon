@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "No additional effect. Hits foe(s).",
+  "move_type": "Electric",
+  "name": "Overdrive"
+}

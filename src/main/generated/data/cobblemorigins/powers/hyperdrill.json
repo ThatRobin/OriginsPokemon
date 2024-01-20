@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Bypasses protection without breaking it.",
+  "move_type": "Normal",
+  "name": "Hyper Drill"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "30% chance to burn adjacent Pokemon.",
+  "move_type": "Fire",
+  "name": "Searing Shot"
+}

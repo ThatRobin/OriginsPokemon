@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises an ally's Attack and Defense by 1.",
+  "move_type": "Fighting",
+  "name": "Coaching"
+}

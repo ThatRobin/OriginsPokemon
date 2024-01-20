@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Hits 3 times.",
+  "move_type": "Water",
+  "name": "Triple Dive"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "User switches its held item with the target's.",
+  "move_type": "Dark",
+  "name": "Switcheroo"
+}

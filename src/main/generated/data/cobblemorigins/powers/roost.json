@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Heals 50% HP. Flying-type removed 'til turn ends.",
+  "move_type": "Flying",
+  "name": "Roost"
+}

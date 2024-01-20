@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "30% chance to lower the target's Sp. Atk by 1.",
+  "move_type": "Fairy",
+  "name": "Moonblast"
+}

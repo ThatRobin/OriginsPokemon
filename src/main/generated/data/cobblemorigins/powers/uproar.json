@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Lasts 3 turns. Active Pokemon cannot fall asleep.",
+  "move_type": "Normal",
+  "name": "Uproar"
+}

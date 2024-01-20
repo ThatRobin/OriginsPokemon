@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises a random stat of the user or an ally by 2.",
+  "move_type": "Normal",
+  "name": "Acupressure"
+}

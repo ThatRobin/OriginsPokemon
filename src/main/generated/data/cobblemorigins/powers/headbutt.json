@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "30% chance to make the target flinch.",
+  "move_type": "Normal",
+  "name": "Headbutt"
+}

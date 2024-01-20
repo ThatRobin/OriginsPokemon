@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "10% chance to burn the foe(s).",
+  "move_type": "Fire",
+  "name": "Heat Wave"
+}

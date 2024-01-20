@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Base move affects power. Foes: Steel hazard.",
+  "move_type": "Steel",
+  "name": "G-Max Steelsurge"
+}

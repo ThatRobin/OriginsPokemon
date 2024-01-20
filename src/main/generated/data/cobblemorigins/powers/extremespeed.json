@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Nearly always goes first.",
+  "move_type": "Normal",
+  "name": "Extreme Speed"
+}

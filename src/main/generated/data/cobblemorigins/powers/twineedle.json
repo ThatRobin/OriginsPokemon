@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Hits 2 times. Each hit has 20% chance to poison.",
+  "move_type": "Bug",
+  "name": "Twineedle"
+}

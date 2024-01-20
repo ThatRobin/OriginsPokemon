@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Base move affects power. Foes: confused.",
+  "move_type": "Normal",
+  "name": "G-Max Gold Rush"
+}

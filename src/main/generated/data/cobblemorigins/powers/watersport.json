@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "For 5 turns, Fire-type attacks have 1/3 power.",
+  "move_type": "Water",
+  "name": "Water Sport"
+}

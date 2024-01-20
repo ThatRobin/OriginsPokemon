@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises all stats by 1 (not acc/eva). Traps user.",
+  "move_type": "Fighting",
+  "name": "No Retreat"
+}

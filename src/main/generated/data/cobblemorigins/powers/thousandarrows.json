@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Grounds adjacent foes. First hit neutral on Flying.",
+  "move_type": "Ground",
+  "name": "Thousand Arrows"
+}

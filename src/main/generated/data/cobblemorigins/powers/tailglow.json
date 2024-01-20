@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises the user's Sp. Atk by 3.",
+  "move_type": "Bug",
+  "name": "Tail Glow"
+}

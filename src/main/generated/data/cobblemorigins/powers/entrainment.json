@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "The target's Ability changes to match the user's.",
+  "move_type": "Normal",
+  "name": "Entrainment"
+}

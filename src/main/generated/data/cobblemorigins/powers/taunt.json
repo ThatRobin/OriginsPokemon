@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Target can't use status moves its next 3 turns.",
+  "move_type": "Dark",
+  "name": "Taunt"
+}

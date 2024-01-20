@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises the user's critical hit ratio by 2.",
+  "move_type": "Normal",
+  "name": "Focus Energy"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "This move does not check accuracy. Hits foes.",
+  "move_type": "Normal",
+  "name": "Swift"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "If the user faints, the attack used loses all its PP.",
+  "move_type": "Ghost",
+  "name": "Grudge"
+}

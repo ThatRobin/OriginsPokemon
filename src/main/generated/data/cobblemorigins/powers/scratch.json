@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "apoli:execute_command",
+    "command": "say I used scratch!"
+  },
+  "description": "No additional effect.",
+  "move_type": "Normal",
+  "name": "Scratch"
+}

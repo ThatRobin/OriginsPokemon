@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Charges, then hits foe(s) turn 2. High crit ratio.",
+  "move_type": "Normal",
+  "name": "Razor Wind"
+}

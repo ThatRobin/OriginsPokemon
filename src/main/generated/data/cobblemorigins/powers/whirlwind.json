@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Forces the target to switch to a random ally.",
+  "move_type": "Normal",
+  "name": "Whirlwind"
+}

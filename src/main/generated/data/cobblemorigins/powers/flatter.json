@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises the target's Sp. Atk by 1 and confuses it.",
+  "move_type": "Dark",
+  "name": "Flatter"
+}

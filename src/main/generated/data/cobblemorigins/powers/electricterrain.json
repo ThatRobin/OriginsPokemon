@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "5 turns. Grounded: +Electric power, can't sleep.",
+  "move_type": "Electric",
+  "name": "Electric Terrain"
+}

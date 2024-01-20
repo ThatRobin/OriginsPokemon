@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Always 160 power. Ignores Abilities.",
+  "move_type": "Water",
+  "name": "G-Max Hydrosnipe"
+}

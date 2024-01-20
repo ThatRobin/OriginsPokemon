@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Swaps all stat changes with target.",
+  "move_type": "Psychic",
+  "name": "Heart Swap"
+}

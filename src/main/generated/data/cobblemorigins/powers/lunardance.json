@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "User faints. Next hurt Pkmn is cured, max HP/PP.",
+  "move_type": "Psychic",
+  "name": "Lunar Dance"
+}

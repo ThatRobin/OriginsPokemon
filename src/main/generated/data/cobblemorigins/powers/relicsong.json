@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "10% chance to sleep foe(s). Meloetta transforms.",
+  "move_type": "Normal",
+  "name": "Relic Song"
+}

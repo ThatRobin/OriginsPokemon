@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "All healthy allies aid in damaging the target.",
+  "move_type": "Dark",
+  "name": "Beat Up"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "User loses 50% max HP.",
+  "move_type": "Grass",
+  "name": "Chloroblast"
+}

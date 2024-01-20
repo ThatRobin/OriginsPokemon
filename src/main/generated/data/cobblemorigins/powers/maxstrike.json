@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Base move affects power. Foes: -1 Speed.",
+  "move_type": "Normal",
+  "name": "Max Strike"
+}

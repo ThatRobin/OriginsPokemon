@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Resets all of the target's stat stages to 0.",
+  "move_type": "Poison",
+  "name": "Clear Smog"
+}

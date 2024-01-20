@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Destroys the foe(s) Berry/Gem.",
+  "move_type": "Fire",
+  "name": "Incinerate"
+}

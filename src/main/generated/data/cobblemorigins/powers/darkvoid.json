@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Darkrai: Causes the foe(s) to fall asleep.",
+  "move_type": "Dark",
+  "name": "Dark Void"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "30% chance to lower the target's Defense by 1.",
+  "move_type": "Steel",
+  "name": "Iron Tail"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "User and ally's Abilities become target's Ability.",
+  "move_type": "Normal",
+  "name": "Doodle"
+}

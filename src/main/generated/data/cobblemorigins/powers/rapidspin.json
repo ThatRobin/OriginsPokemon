@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Free user from hazards/bind/Leech Seed; +1 Spe.",
+  "move_type": "Normal",
+  "name": "Rapid Spin"
+}

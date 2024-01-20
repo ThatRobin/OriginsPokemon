@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "This move does not check accuracy.",
+  "move_type": "Fighting",
+  "name": "Aura Sphere"
+}

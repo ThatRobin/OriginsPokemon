@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "60 power +20 for each of the target's stat boosts.",
+  "move_type": "Dark",
+  "name": "Punishment"
+}

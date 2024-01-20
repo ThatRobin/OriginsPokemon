@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises the user's Defense by 2.",
+  "move_type": "Psychic",
+  "name": "Barrier"
+}

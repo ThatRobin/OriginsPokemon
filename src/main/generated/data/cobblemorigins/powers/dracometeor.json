@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Lowers the user's Sp. Atk by 2.",
+  "move_type": "Dragon",
+  "name": "Draco Meteor"
+}

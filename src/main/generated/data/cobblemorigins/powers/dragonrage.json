@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Deals 40 HP of damage to the target.",
+  "move_type": "Dragon",
+  "name": "Dragon Rage"
+}

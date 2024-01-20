@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Confuses the target.",
+  "move_type": "Ghost",
+  "name": "Confuse Ray"
+}

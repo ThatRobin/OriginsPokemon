@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Base move affects power. Starts Electric Terrain.",
+  "move_type": "Electric",
+  "name": "Max Lightning"
+}

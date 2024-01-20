@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "No additional effect.",
+  "move_type": "Ground",
+  "name": "High Horsepower"
+}

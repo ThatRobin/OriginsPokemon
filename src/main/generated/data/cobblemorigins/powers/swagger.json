@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises the target's Attack by 2 and confuses it.",
+  "move_type": "Normal",
+  "name": "Swagger"
+}

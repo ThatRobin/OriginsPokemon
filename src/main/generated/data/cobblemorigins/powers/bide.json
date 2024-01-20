@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Waits 2 turns; deals double the damage taken.",
+  "move_type": "Normal",
+  "name": "Bide"
+}

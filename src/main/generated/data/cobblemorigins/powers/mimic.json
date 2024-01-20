@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "The last move the target used replaces this one.",
+  "move_type": "Normal",
+  "name": "Mimic"
+}

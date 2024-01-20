@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "No foe can use any move known by the user.",
+  "move_type": "Psychic",
+  "name": "Imprison"
+}

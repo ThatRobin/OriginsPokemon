@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Protects allies from priority attacks this turn.",
+  "move_type": "Fighting",
+  "name": "Quick Guard"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Base move affects power. Allies: +1 Attack.",
+  "move_type": "Fighting",
+  "name": "Max Knuckle"
+}

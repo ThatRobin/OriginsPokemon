@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Base move affects power. Starts Psychic Terrain.",
+  "move_type": "Psychic",
+  "name": "Max Mindstorm"
+}

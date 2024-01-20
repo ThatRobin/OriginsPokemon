@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Flies up on first turn, then strikes the next turn.",
+  "move_type": "Flying",
+  "name": "Fly"
+}

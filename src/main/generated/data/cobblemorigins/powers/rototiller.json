@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises Atk/Sp. Atk of grounded Grass types by 1.",
+  "move_type": "Ground",
+  "name": "Rototiller"
+}

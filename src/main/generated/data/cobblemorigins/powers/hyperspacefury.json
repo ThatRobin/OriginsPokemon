@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Hoopa-U: Lowers user's Def by 1; breaks protect.",
+  "move_type": "Dark",
+  "name": "Hyperspace Fury"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Type varies based on the held Plate.",
+  "move_type": "Normal",
+  "name": "Judgment"
+}

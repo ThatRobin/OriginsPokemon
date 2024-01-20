@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "If using a Fire move, target loses 1/4 max HP.",
+  "move_type": "Bug",
+  "name": "Powder"
+}

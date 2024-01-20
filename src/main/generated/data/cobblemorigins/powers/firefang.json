@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "10% chance to burn. 10% chance to flinch.",
+  "move_type": "Fire",
+  "name": "Fire Fang"
+}

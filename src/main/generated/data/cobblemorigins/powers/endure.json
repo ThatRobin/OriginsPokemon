@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "User survives attacks this turn with at least 1 HP.",
+  "move_type": "Normal",
+  "name": "Endure"
+}

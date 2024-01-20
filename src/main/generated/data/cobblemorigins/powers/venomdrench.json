@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Lowers Atk/Sp. Atk/Speed of poisoned foes by 1.",
+  "move_type": "Poison",
+  "name": "Venom Drench"
+}

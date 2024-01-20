@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "10% chance to cause the target to fall asleep.",
+  "move_type": "Dark",
+  "name": "Wicked Torque"
+}

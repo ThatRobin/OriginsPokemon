@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Does damage equal to the user's level.",
+  "move_type": "Fighting",
+  "name": "Seismic Toss"
+}

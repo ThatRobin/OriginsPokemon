@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Poisons foes, frees user from hazards/bind/leech.",
+  "move_type": "Poison",
+  "name": "Mortal Spin"
+}

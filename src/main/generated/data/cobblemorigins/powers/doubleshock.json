@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "User's Electric type: typeless; must be Electric.",
+  "move_type": "Electric",
+  "name": "Double Shock"
+}

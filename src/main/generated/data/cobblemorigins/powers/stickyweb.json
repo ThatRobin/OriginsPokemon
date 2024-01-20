@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Lowers Speed of grounded foes by 1 on switch-in.",
+  "move_type": "Bug",
+  "name": "Sticky Web"
+}

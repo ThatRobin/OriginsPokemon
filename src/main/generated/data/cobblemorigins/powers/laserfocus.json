@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Until the end of the next turn, user's moves crit.",
+  "move_type": "Normal",
+  "name": "Laser Focus"
+}

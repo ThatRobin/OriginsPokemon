@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises the user's Speed by 2 and Attack by 1.",
+  "move_type": "Steel",
+  "name": "Shift Gear"
+}

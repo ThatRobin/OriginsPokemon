@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Power is equal to the base move's Z-Power.",
+  "move_type": "Ground",
+  "name": "Tectonic Rage"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Power doubles with each hit. Repeats for 5 turns.",
+  "move_type": "Rock",
+  "name": "Rollout"
+}

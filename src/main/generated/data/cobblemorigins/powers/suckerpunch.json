@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Usually goes first. Fails if target is not attacking.",
+  "move_type": "Dark",
+  "name": "Sucker Punch"
+}

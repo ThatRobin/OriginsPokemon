@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Protects user from moves & Max Moves this turn.",
+  "move_type": "Normal",
+  "name": "Max Guard"
+}

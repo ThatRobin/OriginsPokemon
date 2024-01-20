@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Hits 10 times. Each hit can miss.",
+  "move_type": "Normal",
+  "name": "Population Bomb"
+}

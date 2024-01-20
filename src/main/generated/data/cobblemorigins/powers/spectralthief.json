@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Steals target's boosts before dealing damage.",
+  "move_type": "Ghost",
+  "name": "Spectral Thief"
+}

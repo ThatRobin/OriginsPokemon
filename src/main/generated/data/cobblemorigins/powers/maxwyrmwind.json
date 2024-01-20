@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Base move affects power. Foes: -1 Attack.",
+  "move_type": "Dragon",
+  "name": "Max Wyrmwind"
+}

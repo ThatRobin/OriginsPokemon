@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises the user's Attack and accuracy by 1.",
+  "move_type": "Dark",
+  "name": "Hone Claws"
+}

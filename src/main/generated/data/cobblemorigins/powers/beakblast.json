@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Burns on contact with the user before it moves.",
+  "move_type": "Flying",
+  "name": "Beak Blast"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "User cannot move next turn.",
+  "move_type": "Fighting",
+  "name": "Meteor Assault"
+}

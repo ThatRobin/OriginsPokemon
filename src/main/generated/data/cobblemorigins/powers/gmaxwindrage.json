@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Base move affects power. Ends Terrain, hazards.",
+  "move_type": "Flying",
+  "name": "G-Max Wind Rage"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Base move affects power. Foes: Tormented.",
+  "move_type": "Steel",
+  "name": "G-Max Meltdown"
+}

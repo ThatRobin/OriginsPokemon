@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "10% chance to poison adjacent Pokemon.",
+  "move_type": "Poison",
+  "name": "Sludge Wave"
+}

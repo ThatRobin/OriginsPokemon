@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Power doubles if the target's HP is 50% or less.",
+  "move_type": "Water",
+  "name": "Brine"
+}

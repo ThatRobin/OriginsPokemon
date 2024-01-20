@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Base move affects power. Foes: psn or par.",
+  "move_type": "Electric",
+  "name": "G-Max Stun Shock"
+}

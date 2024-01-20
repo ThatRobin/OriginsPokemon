@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Hits 3 times. Each hit can miss, but power rises.",
+  "move_type": "Ice",
+  "name": "Triple Axel"
+}

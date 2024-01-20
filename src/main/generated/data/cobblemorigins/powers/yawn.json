@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Puts the target to sleep after 1 turn.",
+  "move_type": "Normal",
+  "name": "Yawn"
+}

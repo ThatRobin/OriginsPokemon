@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Goes last. For 5 turns, turn order is reversed.",
+  "move_type": "Psychic",
+  "name": "Trick Room"
+}

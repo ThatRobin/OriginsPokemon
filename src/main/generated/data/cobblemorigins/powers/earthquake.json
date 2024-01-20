@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Hits adjacent Pokemon. Double damage on Dig.",
+  "move_type": "Ground",
+  "name": "Earthquake"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "User recovers 1/16 max HP per turn.",
+  "move_type": "Water",
+  "name": "Aqua Ring"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "A sleeping target is hurt by 1/4 max HP per turn.",
+  "move_type": "Ghost",
+  "name": "Nightmare"
+}

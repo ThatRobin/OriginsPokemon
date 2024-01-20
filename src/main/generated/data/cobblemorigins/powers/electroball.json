@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "More power the faster the user is than the target.",
+  "move_type": "Electric",
+  "name": "Electro Ball"
+}

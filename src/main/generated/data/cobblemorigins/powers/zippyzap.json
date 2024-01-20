@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Goes first. Raises user's evasion by 1.",
+  "move_type": "Electric",
+  "name": "Zippy Zap"
+}

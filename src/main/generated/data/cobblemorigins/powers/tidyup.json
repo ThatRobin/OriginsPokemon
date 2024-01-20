@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "User +1 Atk, Spe. Clears all substitutes/hazards.",
+  "move_type": "Normal",
+  "name": "Tidy Up"
+}

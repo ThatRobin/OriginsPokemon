@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Prevents moves from affecting the user this turn.",
+  "move_type": "Normal",
+  "name": "Protect"
+}

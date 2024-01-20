@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Poisons grounded foes on switch-in. Max 2 layers.",
+  "move_type": "Poison",
+  "name": "Toxic Spikes"
+}

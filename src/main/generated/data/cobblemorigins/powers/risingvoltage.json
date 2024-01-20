@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "2x power if target is grounded in Electric Terrain.",
+  "move_type": "Electric",
+  "name": "Rising Voltage"
+}

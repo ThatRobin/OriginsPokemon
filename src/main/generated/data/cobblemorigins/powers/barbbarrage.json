@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "50% psn. 2x power if target already poisoned.",
+  "move_type": "Poison",
+  "name": "Barb Barrage"
+}

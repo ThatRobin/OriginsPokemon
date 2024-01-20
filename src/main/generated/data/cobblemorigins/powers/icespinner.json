@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Ends the effects of terrain.",
+  "move_type": "Ice",
+  "name": "Ice Spinner"
+}

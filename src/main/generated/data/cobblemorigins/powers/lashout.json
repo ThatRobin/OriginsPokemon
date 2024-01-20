@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "2x power if the user had a stat lowered this turn.",
+  "move_type": "Dark",
+  "name": "Lash Out"
+}

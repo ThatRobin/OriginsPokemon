@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Can hit Pokemon using Bounce, Fly, or Sky Drop.",
+  "move_type": "Fighting",
+  "name": "Sky Uppercut"
+}

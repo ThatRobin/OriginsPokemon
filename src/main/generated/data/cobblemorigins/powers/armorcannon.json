@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Lowers the user's Defense and Sp. Def by 1.",
+  "move_type": "Fire",
+  "name": "Armor Cannon"
+}

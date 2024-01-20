@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Forces the target to move last this turn.",
+  "move_type": "Dark",
+  "name": "Quash"
+}

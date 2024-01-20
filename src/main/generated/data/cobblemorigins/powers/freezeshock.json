@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Charges turn 1. Hits turn 2. 30% paralyze.",
+  "move_type": "Ice",
+  "name": "Freeze Shock"
+}

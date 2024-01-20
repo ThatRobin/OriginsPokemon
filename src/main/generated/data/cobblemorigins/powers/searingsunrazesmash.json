@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Ignores the Abilities of other Pokemon.",
+  "move_type": "Steel",
+  "name": "Searing Sunraze Smash"
+}

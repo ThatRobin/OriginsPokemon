@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Switches user's Attack and Defense stats.",
+  "move_type": "Normal",
+  "name": "Power Shift"
+}

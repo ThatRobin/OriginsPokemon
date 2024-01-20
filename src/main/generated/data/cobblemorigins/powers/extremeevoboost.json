@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises user's Atk, Def, SpA, SpD, and Spe by 2.",
+  "move_type": "Normal",
+  "name": "Extreme Evoboost"
+}

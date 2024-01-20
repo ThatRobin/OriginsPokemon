@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Power doubles and type varies in each weather.",
+  "move_type": "Normal",
+  "name": "Weather Ball"
+}

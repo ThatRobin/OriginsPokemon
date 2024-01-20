@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Copies target's stats, moves, types, and Ability.",
+  "move_type": "Normal",
+  "name": "Transform"
+}

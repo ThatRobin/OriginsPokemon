@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Removes the target's Ground immunity.",
+  "move_type": "Rock",
+  "name": "Smack Down"
+}

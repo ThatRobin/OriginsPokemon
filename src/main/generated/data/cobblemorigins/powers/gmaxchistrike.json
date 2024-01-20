@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Base move affects power. Allies: Crit Ratio +1.",
+  "move_type": "Fighting",
+  "name": "G-Max Chi Strike"
+}

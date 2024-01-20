@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "50% chance to sleep, poison, or paralyze target.",
+  "move_type": "Poison",
+  "name": "Dire Claw"
+}

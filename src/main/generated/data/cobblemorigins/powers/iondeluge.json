@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Normal moves become Electric type this turn.",
+  "move_type": "Electric",
+  "name": "Ion Deluge"
+}

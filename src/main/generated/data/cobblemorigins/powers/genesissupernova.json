@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Summons Psychic Terrain.",
+  "move_type": "Psychic",
+  "name": "Genesis Supernova"
+}

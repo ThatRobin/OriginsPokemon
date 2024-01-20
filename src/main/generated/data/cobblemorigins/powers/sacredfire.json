@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "50% chance to burn the target. Thaws user.",
+  "move_type": "Fire",
+  "name": "Sacred Fire"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Base move affects power. Bypasses Max Guard.",
+  "move_type": "Water",
+  "name": "G-Max Rapid Flow"
+}

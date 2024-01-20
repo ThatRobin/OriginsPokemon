@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Base move affects power. Starts Rain Dance.",
+  "move_type": "Water",
+  "name": "Max Geyser"
+}

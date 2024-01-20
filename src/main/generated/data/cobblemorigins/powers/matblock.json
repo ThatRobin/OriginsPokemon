@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Protects allies from damaging attacks. Turn 1 only.",
+  "move_type": "Fighting",
+  "name": "Mat Block"
+}

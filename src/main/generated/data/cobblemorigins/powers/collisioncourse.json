@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Deals 1.3333x damage with supereffective hits.",
+  "move_type": "Fighting",
+  "name": "Collision Course"
+}

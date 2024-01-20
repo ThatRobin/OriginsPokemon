@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Lowers the user's Speed by 2.",
+  "move_type": "Steel",
+  "name": "Spin Out"
+}

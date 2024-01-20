@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Uses a random move known by a team member.",
+  "move_type": "Normal",
+  "name": "Assist"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Base move affects power. Foes: trapped.",
+  "move_type": "Ghost",
+  "name": "G-Max Terror"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Heals the target by 50% of its max HP.",
+  "move_type": "Psychic",
+  "name": "Heal Pulse"
+}

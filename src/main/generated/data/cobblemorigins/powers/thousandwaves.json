@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Hits adjacent foes. Prevents them from switching.",
+  "move_type": "Ground",
+  "name": "Thousand Waves"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Uses user's Def stat as Atk in damage calculation.",
+  "move_type": "Fighting",
+  "name": "Body Press"
+}

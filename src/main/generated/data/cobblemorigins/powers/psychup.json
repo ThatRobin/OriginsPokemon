@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Copies the target's current stat stages.",
+  "move_type": "Normal",
+  "name": "Psych Up"
+}

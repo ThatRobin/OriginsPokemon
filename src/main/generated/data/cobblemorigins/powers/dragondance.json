@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises the user's Attack and Speed by 1.",
+  "move_type": "Dragon",
+  "name": "Dragon Dance"
+}

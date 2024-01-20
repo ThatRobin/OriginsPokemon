@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "apoli:execute_command",
+    "command": "say I used ember!"
+  },
+  "description": "10% chance to burn the target.",
+  "move_type": "Fire",
+  "name": "Ember"
+}

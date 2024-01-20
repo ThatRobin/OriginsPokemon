@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Raises the user's Attack and Sp. Atk by 1.",
+  "move_type": "Normal",
+  "name": "Work Up"
+}

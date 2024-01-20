@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Usually goes first.",
+  "move_type": "Ice",
+  "name": "Ice Shard"
+}

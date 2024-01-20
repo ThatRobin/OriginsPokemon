@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Always does 20 HP of damage.",
+  "move_type": "Normal",
+  "name": "Sonic Boom"
+}

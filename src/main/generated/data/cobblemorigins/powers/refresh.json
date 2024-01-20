@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "User cures its burn, poison, or paralysis.",
+  "move_type": "Normal",
+  "name": "Refresh"
+}

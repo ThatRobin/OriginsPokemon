@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Paralyzes the target.",
+  "move_type": "Electric",
+  "name": "Thunder Wave"
+}

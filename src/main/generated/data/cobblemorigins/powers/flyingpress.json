@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Combines Flying in its type effectiveness.",
+  "move_type": "Fighting",
+  "name": "Flying Press"
+}

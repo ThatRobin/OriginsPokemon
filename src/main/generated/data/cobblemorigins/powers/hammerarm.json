@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Lowers the user's Speed by 1.",
+  "move_type": "Fighting",
+  "name": "Hammer Arm"
+}

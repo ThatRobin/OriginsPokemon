@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Hurts foes on switch-in. Factors Rock weakness.",
+  "move_type": "Rock",
+  "name": "Stealth Rock"
+}

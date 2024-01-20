@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "No additional effect.",
+  "move_type": "Rock",
+  "name": "Rock Throw"
+}

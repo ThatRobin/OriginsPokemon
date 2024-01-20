@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Fails if the target has no held item.",
+  "move_type": "Ghost",
+  "name": "Poltergeist"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "10% chance to raise all stats by 1 (not acc/eva).",
+  "move_type": "Rock",
+  "name": "Ancient Power"
+}

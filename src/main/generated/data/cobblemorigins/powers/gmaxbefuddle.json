@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Base move affects power. Foes: slp or psn or par.",
+  "move_type": "Bug",
+  "name": "G-Max Befuddle"
+}

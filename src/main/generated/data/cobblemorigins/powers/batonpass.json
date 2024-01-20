@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "User switches, passing stat changes and more.",
+  "move_type": "Normal",
+  "name": "Baton Pass"
+}

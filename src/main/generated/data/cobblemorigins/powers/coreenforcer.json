@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Nullifies the foe(s) Ability if the foe(s) move first.",
+  "move_type": "Dragon",
+  "name": "Core Enforcer"
+}

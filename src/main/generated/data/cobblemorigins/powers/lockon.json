@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "User's next move will not miss the target.",
+  "move_type": "Normal",
+  "name": "Lock-On"
+}

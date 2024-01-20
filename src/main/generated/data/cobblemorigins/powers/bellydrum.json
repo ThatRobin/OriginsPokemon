@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "User loses 50% max HP. Maximizes Attack.",
+  "move_type": "Normal",
+  "name": "Belly Drum"
+}

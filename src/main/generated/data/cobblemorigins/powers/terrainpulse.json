@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "User on terrain: power doubles, type varies.",
+  "move_type": "Normal",
+  "name": "Terrain Pulse"
+}

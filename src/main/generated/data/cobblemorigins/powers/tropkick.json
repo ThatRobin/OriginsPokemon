@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "100% chance to lower the target's Attack by 1.",
+  "move_type": "Grass",
+  "name": "Trop Kick"
+}

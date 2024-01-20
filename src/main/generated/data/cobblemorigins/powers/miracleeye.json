@@ -1,0 +1,6 @@
+{
+  "type": "origins:simple",
+  "description": "Psychic hits Dark. Evasiveness ignored.",
+  "move_type": "Psychic",
+  "name": "Miracle Eye"
+}
