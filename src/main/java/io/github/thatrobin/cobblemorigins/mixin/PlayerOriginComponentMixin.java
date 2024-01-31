@@ -100,14 +100,9 @@ public abstract class PlayerOriginComponentMixin {
 
 
             for (PowerType<?> powerType : origin.getPowerTypes()) {
-                Cobblemorigins.LOGGER.info("change: " + powerType.getIdentifier());
                 component.selectMove(powerType);
             }
             component.sync();
-
-            for (PowerType<?> powerType : origin.getPowerTypes()) {
-                Cobblemorigins.LOGGER.info("post change: " + powerType.getIdentifier());
-            }
         }
     }
 }
