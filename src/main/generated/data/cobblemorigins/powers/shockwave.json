@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "This move does not check accuracy.",
-  "move_type": "Electric",
-  "name": "Shock Wave"
-}

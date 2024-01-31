@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "50% chance to lower the target's Sp. Atk by 1.",
-  "move_type": "Psychic",
-  "name": "Mist Ball"
-}

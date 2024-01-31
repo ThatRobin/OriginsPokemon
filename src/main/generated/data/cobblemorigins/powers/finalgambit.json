@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Does damage equal to the user's HP. User faints.",
-  "move_type": "Fighting",
-  "name": "Final Gambit"
-}

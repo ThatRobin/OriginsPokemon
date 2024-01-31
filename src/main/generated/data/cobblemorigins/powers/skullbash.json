@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Raises user's Defense by 1 on turn 1. Hits turn 2.",
-  "move_type": "Normal",
-  "name": "Skull Bash"
-}

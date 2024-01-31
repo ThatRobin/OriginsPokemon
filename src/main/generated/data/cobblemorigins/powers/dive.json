@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Dives underwater turn 1, strikes turn 2.",
-  "move_type": "Water",
-  "name": "Dive"
-}

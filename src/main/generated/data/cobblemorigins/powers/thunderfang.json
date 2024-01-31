@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "10% chance to paralyze. 10% chance to flinch.",
-  "move_type": "Electric",
-  "name": "Thunder Fang"
-}

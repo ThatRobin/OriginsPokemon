@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "For 5 turns, shields user's party from critical hits.",
-  "move_type": "Normal",
-  "name": "Lucky Chant"
-}

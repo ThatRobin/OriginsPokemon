@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "User's Fire type becomes typeless; must be Fire.",
-  "move_type": "Fire",
-  "name": "Burn Up"
-}

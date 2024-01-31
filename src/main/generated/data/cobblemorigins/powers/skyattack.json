@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Charges, then hits turn 2. 30% flinch. High crit.",
-  "move_type": "Flying",
-  "name": "Sky Attack"
-}

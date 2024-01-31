@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Raises an ally's Sp. Def by 1.",
-  "move_type": "Fairy",
-  "name": "Aromatic Mist"
-}

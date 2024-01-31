@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Base move affects power. Foes: -1 Sp. Atk.",
-  "move_type": "Bug",
-  "name": "Max Flutterby"
-}

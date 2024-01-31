@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Power doubles if target was damaged this turn.",
-  "move_type": "Dark",
-  "name": "Assurance"
-}

@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "10% chance to confuse the target.",
-  "move_type": "Psychic",
-  "name": "Confusion"
-}

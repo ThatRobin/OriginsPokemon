@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "The target makes its move right after the user.",
-  "move_type": "Normal",
-  "name": "After You"
-}

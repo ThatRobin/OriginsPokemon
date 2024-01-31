@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Averages Attack and Sp. Atk stats with target.",
-  "move_type": "Psychic",
-  "name": "Power Split"
-}

@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "For 3 turns, target floats but moves can't miss it.",
-  "move_type": "Psychic",
-  "name": "Telekinesis"
-}

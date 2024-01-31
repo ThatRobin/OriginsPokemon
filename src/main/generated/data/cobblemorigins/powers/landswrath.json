@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "No additional effect. Hits adjacent foes.",
-  "move_type": "Ground",
-  "name": "Land's Wrath"
-}

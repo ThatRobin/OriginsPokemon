@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Hits twice. Doubles: Tries to hit each foe once.",
-  "move_type": "Dragon",
-  "name": "Dragon Darts"
-}

@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "30% chance to make the target flinch.",
-  "move_type": "Bug",
-  "name": "Steamroller"
-}

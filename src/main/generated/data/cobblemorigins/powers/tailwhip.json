@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Lowers the foe(s) Defense by 1.",
-  "move_type": "Normal",
-  "name": "Tail Whip"
-}

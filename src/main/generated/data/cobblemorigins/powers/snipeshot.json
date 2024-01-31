@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "High critical hit ratio. Cannot be redirected.",
-  "move_type": "Water",
-  "name": "Snipe Shot"
-}

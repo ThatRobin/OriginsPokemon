@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Fails if there is no terrain active. Ends the terrain.",
-  "move_type": "Steel",
-  "name": "Steel Roller"
-}

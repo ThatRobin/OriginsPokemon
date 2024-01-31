@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Swaps Defense and Sp. Def changes with target.",
-  "move_type": "Psychic",
-  "name": "Guard Swap"
-}

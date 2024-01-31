@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "10% chance to burn the target.",
-  "move_type": "Fire",
-  "name": "Fire Punch"
-}

@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Traps target, lowers Def and SpD by 1 each turn.",
-  "move_type": "Fighting",
-  "name": "Octolock"
-}

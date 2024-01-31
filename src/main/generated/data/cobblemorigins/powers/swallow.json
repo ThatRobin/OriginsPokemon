@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Heals the user based on uses of Stockpile.",
-  "move_type": "Normal",
-  "name": "Swallow"
-}

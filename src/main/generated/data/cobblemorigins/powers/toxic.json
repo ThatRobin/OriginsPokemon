@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Badly poisons the target. Poison types can't miss.",
-  "move_type": "Poison",
-  "name": "Toxic"
-}

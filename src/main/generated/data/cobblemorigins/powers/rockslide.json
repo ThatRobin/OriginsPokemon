@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "30% chance to make the foe(s) flinch.",
-  "move_type": "Rock",
-  "name": "Rock Slide"
-}

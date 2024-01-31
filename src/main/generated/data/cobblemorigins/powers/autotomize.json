@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Raises the user's Speed by 2; user loses 100 kg.",
-  "move_type": "Steel",
-  "name": "Autotomize"
-}

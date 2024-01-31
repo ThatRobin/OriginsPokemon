@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "40, 80, 120 power, or heals target 1/4 max HP.",
-  "move_type": "Normal",
-  "name": "Present"
-}

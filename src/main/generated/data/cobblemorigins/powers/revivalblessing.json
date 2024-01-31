@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Revives a fainted Pokemon to 50% HP.",
-  "move_type": "Normal",
-  "name": "Revival Blessing"
-}

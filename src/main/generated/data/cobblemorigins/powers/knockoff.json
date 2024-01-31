@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "1.5x damage if foe holds an item. Removes item.",
-  "move_type": "Dark",
-  "name": "Knock Off"
-}

@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Next turn, 50% of the user's max HP is restored.",
-  "move_type": "Normal",
-  "name": "Wish"
-}

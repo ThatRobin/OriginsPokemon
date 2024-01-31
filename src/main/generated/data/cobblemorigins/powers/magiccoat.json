@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Bounces back certain non-damaging moves.",
-  "move_type": "Psychic",
-  "name": "Magic Coat"
-}

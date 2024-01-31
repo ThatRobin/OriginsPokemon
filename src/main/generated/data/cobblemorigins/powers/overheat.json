@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Lowers the user's Sp. Atk by 2.",
-  "move_type": "Fire",
-  "name": "Overheat"
-}

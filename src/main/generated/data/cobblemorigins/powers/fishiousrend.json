@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Power doubles if user moves before the target.",
-  "move_type": "Water",
-  "name": "Fishious Rend"
-}

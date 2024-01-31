@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Lowers Def, SpD by 1; raises Atk, SpA, Spe by 2.",
-  "move_type": "Normal",
-  "name": "Shell Smash"
-}

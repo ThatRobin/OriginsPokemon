@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "User and ally swap positions; using again can fail.",
-  "move_type": "Psychic",
-  "name": "Ally Switch"
-}

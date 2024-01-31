@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Base move affects power. Allies: +1 Speed.",
-  "move_type": "Flying",
-  "name": "Max Airstream"
-}

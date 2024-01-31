@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "For 5 turns, special damage to allies is halved.",
-  "move_type": "Psychic",
-  "name": "Light Screen"
-}

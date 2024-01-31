@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Copies a foe at 1.5x power. User must be faster.",
-  "move_type": "Normal",
-  "name": "Me First"
-}

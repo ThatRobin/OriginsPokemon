@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "More power the less HP the user has left.",
-  "move_type": "Normal",
-  "name": "Flail"
-}

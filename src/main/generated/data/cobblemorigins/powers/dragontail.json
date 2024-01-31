@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Forces the target to switch to a random ally.",
-  "move_type": "Dragon",
-  "name": "Dragon Tail"
-}

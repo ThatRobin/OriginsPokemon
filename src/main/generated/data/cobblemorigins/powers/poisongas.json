@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Poisons the foe(s).",
-  "move_type": "Poison",
-  "name": "Poison Gas"
-}

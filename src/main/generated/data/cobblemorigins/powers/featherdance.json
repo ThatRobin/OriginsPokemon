@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Lowers the target's Attack by 2.",
-  "move_type": "Flying",
-  "name": "Feather Dance"
-}

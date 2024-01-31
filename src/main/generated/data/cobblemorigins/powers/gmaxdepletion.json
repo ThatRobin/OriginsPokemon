@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Base move affects power. Foes: last move -2 PP.",
-  "move_type": "Dragon",
-  "name": "G-Max Depletion"
-}

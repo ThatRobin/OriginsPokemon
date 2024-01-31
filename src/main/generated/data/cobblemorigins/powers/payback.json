@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Power doubles if the user moves after the target.",
-  "move_type": "Dark",
-  "name": "Payback"
-}

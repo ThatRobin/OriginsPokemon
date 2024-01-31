@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "User cannot move next turn.",
-  "move_type": "Dragon",
-  "name": "Roar of Time"
-}

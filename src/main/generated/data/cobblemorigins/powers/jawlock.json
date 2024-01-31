@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Prevents both user and target from switching out.",
-  "move_type": "Dark",
-  "name": "Jaw Lock"
-}

@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "OHKOs non-Ice targets. Fails if user's lower level.",
-  "move_type": "Ice",
-  "name": "Sheer Cold"
-}

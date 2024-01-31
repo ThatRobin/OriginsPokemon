@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Lowers the target's HP to the user's HP.",
-  "move_type": "Normal",
-  "name": "Endeavor"
-}

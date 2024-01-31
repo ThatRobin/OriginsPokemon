@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Max 102 power at maximum Happiness.",
-  "move_type": "Normal",
-  "name": "Return"
-}

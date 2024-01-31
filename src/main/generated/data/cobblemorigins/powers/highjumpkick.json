@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "User is hurt by 50% of its max HP if it misses.",
-  "move_type": "Fighting",
-  "name": "High Jump Kick"
-}

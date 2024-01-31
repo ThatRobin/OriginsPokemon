@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Power doubles if the target is poisoned.",
-  "move_type": "Poison",
-  "name": "Venoshock"
-}

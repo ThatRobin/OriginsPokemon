@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Adds Ghost to the target's type(s).",
-  "move_type": "Ghost",
-  "name": "Trick-or-Treat"
-}

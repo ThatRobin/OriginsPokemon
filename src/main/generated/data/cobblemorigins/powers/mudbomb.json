@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "30% chance to lower the target's accuracy by 1.",
-  "move_type": "Ground",
-  "name": "Mud Bomb"
-}

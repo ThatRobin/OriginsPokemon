@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "10% chance to freeze foe(s). Can't miss in Snow.",
-  "move_type": "Ice",
-  "name": "Blizzard"
-}

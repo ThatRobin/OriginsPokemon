@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "One adjacent ally's move power is 1.5x this turn.",
-  "move_type": "Normal",
-  "name": "Helping Hand"
-}

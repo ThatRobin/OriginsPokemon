@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Hits first. First turn out only. 100% flinch chance.",
-  "move_type": "Normal",
-  "name": "Fake Out"
-}

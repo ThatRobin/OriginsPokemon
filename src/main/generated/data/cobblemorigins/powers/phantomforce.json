@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Disappears turn 1. Hits turn 2. Breaks protection.",
-  "move_type": "Ghost",
-  "name": "Phantom Force"
-}

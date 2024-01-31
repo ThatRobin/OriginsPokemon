@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Power doubles with each hit, up to 160.",
-  "move_type": "Bug",
-  "name": "Fury Cutter"
-}

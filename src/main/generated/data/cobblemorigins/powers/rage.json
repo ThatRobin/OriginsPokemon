@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Raises the user's Attack by 1 if hit during use.",
-  "move_type": "Normal",
-  "name": "Rage"
-}

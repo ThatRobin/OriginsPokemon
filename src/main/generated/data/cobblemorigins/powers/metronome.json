@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Picks a random move.",
-  "move_type": "Normal",
-  "name": "Metronome"
-}

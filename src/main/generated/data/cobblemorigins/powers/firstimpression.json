@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Hits first. First turn out only.",
-  "move_type": "Bug",
-  "name": "First Impression"
-}

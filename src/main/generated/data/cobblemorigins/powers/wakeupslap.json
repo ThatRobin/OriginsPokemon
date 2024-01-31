@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Power doubles if target is asleep, and wakes it.",
-  "move_type": "Fighting",
-  "name": "Wake-Up Slap"
-}

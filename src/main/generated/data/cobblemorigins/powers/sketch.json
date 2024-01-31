@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Permanently copies the last move target used.",
-  "move_type": "Normal",
-  "name": "Sketch"
-}

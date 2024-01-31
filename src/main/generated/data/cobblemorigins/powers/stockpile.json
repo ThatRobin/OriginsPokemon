@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Raises user's Defense, Sp. Def by 1. Max 3 uses.",
-  "move_type": "Normal",
-  "name": "Stockpile"
-}

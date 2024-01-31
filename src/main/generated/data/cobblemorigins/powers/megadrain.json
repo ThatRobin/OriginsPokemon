@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "User recovers 50% of the damage dealt.",
-  "move_type": "Grass",
-  "name": "Mega Drain"
-}

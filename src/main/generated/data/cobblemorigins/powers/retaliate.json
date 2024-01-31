@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Power doubles if an ally fainted last turn.",
-  "move_type": "Normal",
-  "name": "Retaliate"
-}

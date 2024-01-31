@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "If the user has no item, it steals the target's.",
-  "move_type": "Dark",
-  "name": "Thief"
-}

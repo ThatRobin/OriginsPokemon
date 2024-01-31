@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "User must be asleep. Uses another known move.",
-  "move_type": "Normal",
-  "name": "Sleep Talk"
-}

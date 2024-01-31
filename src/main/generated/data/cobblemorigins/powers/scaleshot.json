@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Hits 2-5 times. User: -1 Def, +1 Spe after last hit.",
-  "move_type": "Dragon",
-  "name": "Scale Shot"
-}

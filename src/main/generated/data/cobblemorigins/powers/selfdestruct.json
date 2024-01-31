@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Hits adjacent Pokemon. The user faints.",
-  "move_type": "Normal",
-  "name": "Self-Destruct"
-}

@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "High critical hit ratio. 10% chance to poison.",
-  "move_type": "Poison",
-  "name": "Poison Tail"
-}

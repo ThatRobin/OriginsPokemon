@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Target's foes' moves are redirected to it this turn.",
-  "move_type": "Normal",
-  "name": "Spotlight"
-}

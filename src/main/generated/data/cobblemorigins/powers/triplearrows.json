@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "High crit. Target: 50% -1 Defense, 30% flinch.",
-  "move_type": "Fighting",
-  "name": "Triple Arrows"
-}

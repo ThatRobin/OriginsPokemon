@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Uses the last move used in the battle.",
-  "move_type": "Normal",
-  "name": "Copycat"
-}

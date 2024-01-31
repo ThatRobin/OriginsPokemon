@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "User uses the target's last used move against it.",
-  "move_type": "Flying",
-  "name": "Mirror Move"
-}

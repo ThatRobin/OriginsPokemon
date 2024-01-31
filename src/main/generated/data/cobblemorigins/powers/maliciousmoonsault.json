@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Damage doubles if the target used Minimize.",
-  "move_type": "Dark",
-  "name": "Malicious Moonsault"
-}

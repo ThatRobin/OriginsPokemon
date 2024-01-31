@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Heals the user by a weather-dependent amount.",
-  "move_type": "Fairy",
-  "name": "Moonlight"
-}

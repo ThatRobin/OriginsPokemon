@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Prevents the target from switching out.",
-  "move_type": "Normal",
-  "name": "Mean Look"
-}

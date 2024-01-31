@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "100% burns a target that had a stat rise this turn.",
-  "move_type": "Fire",
-  "name": "Burning Jealousy"
-}

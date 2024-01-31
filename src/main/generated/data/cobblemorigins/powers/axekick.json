@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "30% confusion. User loses 50% max HP if miss.",
-  "move_type": "Fighting",
-  "name": "Axe Kick"
-}

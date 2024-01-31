@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Hits 2-5 times in one turn.",
-  "move_type": "Grass",
-  "name": "Bullet Seed"
-}

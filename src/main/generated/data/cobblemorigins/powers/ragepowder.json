@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "The foes' moves target the user on the turn used.",
-  "move_type": "Bug",
-  "name": "Rage Powder"
-}

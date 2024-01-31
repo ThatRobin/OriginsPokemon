@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "All active Pokemon will faint in 3 turns.",
-  "move_type": "Normal",
-  "name": "Perish Song"
-}

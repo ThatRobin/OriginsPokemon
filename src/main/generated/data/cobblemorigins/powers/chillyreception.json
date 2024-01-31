@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Starts Snow. User switches out.",
-  "move_type": "Ice",
-  "name": "Chilly Reception"
-}

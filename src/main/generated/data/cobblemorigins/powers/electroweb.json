@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "100% chance to lower the foe(s) Speed by 1.",
-  "move_type": "Electric",
-  "name": "Electroweb"
-}

@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Power doubles if user is burn/poison/paralyzed.",
-  "move_type": "Normal",
-  "name": "Facade"
-}

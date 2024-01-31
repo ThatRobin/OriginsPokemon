@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "User steals and eats the target's Berry.",
-  "move_type": "Flying",
-  "name": "Pluck"
-}

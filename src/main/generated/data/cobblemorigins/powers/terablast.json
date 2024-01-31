@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "If Terastallized: Phys. if Atk > SpA, type = Tera.",
-  "move_type": "Normal",
-  "name": "Tera Blast"
-}

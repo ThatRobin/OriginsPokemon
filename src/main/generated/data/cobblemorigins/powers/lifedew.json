@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Heals the user and its allies by 1/4 their max HP.",
-  "move_type": "Water",
-  "name": "Life Dew"
-}

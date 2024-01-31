@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Raises the user's and ally's Attack by 1.",
-  "move_type": "Normal",
-  "name": "Howl"
-}

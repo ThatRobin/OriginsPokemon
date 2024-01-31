@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Does damage equal to 3/4 target's current HP.",
-  "move_type": "Fairy",
-  "name": "Guardian of Alola"
-}

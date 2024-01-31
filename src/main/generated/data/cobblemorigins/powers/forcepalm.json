@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "30% chance to paralyze the target.",
-  "move_type": "Fighting",
-  "name": "Force Palm"
-}

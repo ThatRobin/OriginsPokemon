@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "40% chance to poison the target.",
-  "move_type": "Poison",
-  "name": "Smog"
-}

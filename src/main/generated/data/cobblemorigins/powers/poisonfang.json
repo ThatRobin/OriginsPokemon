@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "50% chance to badly poison the target.",
-  "move_type": "Poison",
-  "name": "Poison Fang"
-}

@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Sets a layer of Spikes on the opposing side.",
-  "move_type": "Dark",
-  "name": "Ceaseless Edge"
-}

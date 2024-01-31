@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Nullifies the target's Ability.",
-  "move_type": "Poison",
-  "name": "Gastro Acid"
-}

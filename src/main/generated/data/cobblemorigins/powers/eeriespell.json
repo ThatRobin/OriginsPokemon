@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Removes 3 PP from the target's last move.",
-  "move_type": "Psychic",
-  "name": "Eerie Spell"
-}

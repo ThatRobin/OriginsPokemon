@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "User must take physical damage before moving.",
-  "move_type": "Fire",
-  "name": "Shell Trap"
-}

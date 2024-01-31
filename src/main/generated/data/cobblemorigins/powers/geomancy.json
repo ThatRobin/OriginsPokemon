@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Charges, then raises SpA, SpD, Spe by 2 turn 2.",
-  "move_type": "Fairy",
-  "name": "Geomancy"
-}

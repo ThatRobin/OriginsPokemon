@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Raises the user's Speed by 2.",
-  "move_type": "Rock",
-  "name": "Rock Polish"
-}

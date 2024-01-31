@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "User restores 1/2 its max HP; 2/3 in Sandstorm.",
-  "move_type": "Ground",
-  "name": "Shore Up"
-}

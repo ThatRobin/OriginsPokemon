@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Base move affects power. Starts Sunny Day.",
-  "move_type": "Fire",
-  "name": "Max Flare"
-}

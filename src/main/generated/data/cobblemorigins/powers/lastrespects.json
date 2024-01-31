@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "+50 power for each time a party member fainted.",
-  "move_type": "Ghost",
-  "name": "Last Respects"
-}

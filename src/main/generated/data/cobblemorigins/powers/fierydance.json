@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "50% chance to raise the user's Sp. Atk by 1.",
-  "move_type": "Fire",
-  "name": "Fiery Dance"
-}

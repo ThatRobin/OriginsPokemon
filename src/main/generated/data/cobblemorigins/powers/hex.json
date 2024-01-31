@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Power doubles if the target has a status ailment.",
-  "move_type": "Ghost",
-  "name": "Hex"
-}

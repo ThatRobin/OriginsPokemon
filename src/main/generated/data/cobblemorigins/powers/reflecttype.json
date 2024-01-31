@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "User becomes the same type as the target.",
-  "move_type": "Normal",
-  "name": "Reflect Type"
-}

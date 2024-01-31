@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Raises Defense by 1 of all active Grass types.",
-  "move_type": "Fairy",
-  "name": "Flower Shield"
-}

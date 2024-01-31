@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Base move affects power. Foes: -1/6 HP, 4 turns.",
-  "move_type": "Rock",
-  "name": "G-Max Volcalith"
-}

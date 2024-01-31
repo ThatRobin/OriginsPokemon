@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "User faints. Next hurt Pokemon is fully healed.",
-  "move_type": "Psychic",
-  "name": "Healing Wish"
-}

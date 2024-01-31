@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "User heals HP=target's Atk stat. Lowers Atk by 1.",
-  "move_type": "Grass",
-  "name": "Strength Sap"
-}

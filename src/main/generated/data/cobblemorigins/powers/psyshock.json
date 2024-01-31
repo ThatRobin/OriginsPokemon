@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Damages target based on Defense, not Sp. Def.",
-  "move_type": "Psychic",
-  "name": "Psyshock"
-}

@@ -1,6 +1,0 @@
-{
-  "type": "origins:simple",
-  "description": "Power increases when used on consecutive turns.",
-  "move_type": "Normal",
-  "name": "Echoed Voice"
-}
