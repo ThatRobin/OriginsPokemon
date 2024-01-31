@@ -1,0 +1,82 @@
+{
+    "type": "apoli:active_self",
+    "name": "Growl",
+    "move_data": "cobblemorigins:normal",
+    "entity_action": {
+        "type": "apoli:and",
+        "actions": [
+            {
+                "type": "apoli:execute_command",
+                "command": "particle minecraft:shriek 0 ~ ~1.5 ~ 0 0 0 1 8"
+            },
+            {
+                "type": "apoli:delay",
+                "ticks": 4,
+                "action": {
+                    "type": "apoli:execute_command",
+                    "command": "particle minecraft:shriek 0 ~ ~1.5 ~ 0 0 0 1 8"
+                }
+            },
+            {
+                "type": "apoli:delay",
+                "ticks": 8,
+                "action": {
+                    "type": "apoli:execute_command",
+                    "command": "particle minecraft:shriek 0 ~ ~1.5 ~ 0 0 0 1 8"
+                }
+            },
+            {
+                "type": "apoli:delay",
+                "ticks": 12,
+                "action": {
+                    "type": "apoli:execute_command",
+                    "command": "particle minecraft:shriek 0 ~ ~1.5 ~ 0 0 0 1 8"
+                }
+            },
+            {
+                "type": "apoli:play_sound",
+                "sound": "entity.wolf.growl",
+                "pitch": 1.2
+            },
+            {
+                "type": "apoli:area_of_effect",
+                "radius": 8,
+                "bientity_action": {
+                    "type": "apoli:target_action",
+                    "action": {
+                        "type": "apoli:and",
+                        "actions": [
+                            {
+                                "type": "apoli:grant_power",
+                                "power": "*:stat_modifier",
+                                "source": "cobblemorigins:stat"
+                            },
+                            {
+                                "type": "apoli:change_resource",
+                                "resource": "*:stat_modifier_attack_res",
+                                "operation": "add",
+                                "change": -1
+                            }
+                        ]
+                    }
+                },
+                "bientity_condition": {
+                    "type": "apoli:target_condition",
+                    "condition": {
+                        "type": "apoli:and",
+                        "conditions": [
+                            {
+                                "type": "apoli:living"
+                            },
+                            {
+                                "type": "apoli:nbt",
+                                "inverted": true,
+                                "nbt": "{Tags:[\"cobblemorigins.soundproof\"]}"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

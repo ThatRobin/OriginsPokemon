@@ -1,0 +1,96 @@
+{
+    "type": "apoli:multiple",
+    "set": {
+        "type": "origins:entity_set"
+    },
+    "leaves": {
+        "type": "apoli:action_on_callback",
+        "entity_action_gained": {
+            "type": "apoli:and",
+            "actions": [
+                {
+                    "type": "apoli:area_of_effect",
+                    "radius": 4,
+                    "bientity_action": {
+                        "type": "apoli:and",
+                        "actions": [
+                            {
+                                "type": "origins:add_to_set",
+                                "set": "*:*_set"
+                            },
+                            {
+                                "type": "origins:target_action",
+                                "action": {
+                                    "type": "apoli:execute_command",
+                                    "command": "tag @s remove cobblemorigins.new.razor_leaf"
+                                }
+                            }
+                        ]
+                    },
+                    "bientity_condition": {
+                        "type": "apoli:target_condition",
+                        "condition": {
+                            "type": "apoli:and",
+                            "conditions": [
+                                {
+                                    "type": "apoli:nbt",
+                                    "nbt": "{Tags:[\"cobblemorigins.new.razor_leaf\"]}"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "shoot": {
+        "type": "apoli:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "apoli:and",
+            "actions": [
+                {
+                    "type": "apoli:play_sound",
+                    "sound": "entity.arrow.shoot"
+                },
+                {
+                    "type": "apoli:execute_command",
+                    "command": "particle minecraft:block oak_leaves ^ ^ ^1.8 0.3 0.3 0.3 2 10"
+                },
+                {
+                    "type": "apoli:area_of_effect",
+                    "radius": 4,
+                    "bientity_action": {
+                        "type": "apoli:and",
+                        "actions": [
+                            {
+                                "type": "apoli:target_action",
+                                "action": {
+                                    "type": "apoli:and",
+                                    "actions": [
+                                        {
+                                            "type": "apoli:execute_command",
+                                            "command": "data modify entity @s NoGravity set value 0b"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "apoli:add_velocity",
+                                "z": 2
+                            }
+                        ]
+                    },
+                    "bientity_condition": {
+                        "type": "apoli:in_set",
+                        "set": "*:*_set"
+                    }
+                },
+                {
+                    "type": "apoli:execute_command",
+                    "command": "function cobblemorigins:die"
+                }
+            ]
+        }
+    }
+}

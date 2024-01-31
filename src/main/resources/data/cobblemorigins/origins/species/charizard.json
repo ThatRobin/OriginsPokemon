@@ -1,0 +1,121 @@
+{
+  "icon": {
+    "item": "minecraft:stick",
+    "tag": "{CustomItem:\"cobblemorigins:charizard\"}"
+  },
+  "impact": 0,
+  "moves": [
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "airslash"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "dragonclaw"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "ember"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "growl"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "heatwave"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "metalclaw"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "scratch"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "shadowclaw"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "smokescreen"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "wingattack"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 12,
+      "move": "dragonbreath"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 17,
+      "move": "dragonrage"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 19,
+      "move": "firefang"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 20,
+      "move": "rage"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 24,
+      "move": "slash"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 30,
+      "move": "flamethrower"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 32,
+      "move": "flameburst"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 39,
+      "move": "scaryface"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 46,
+      "move": "firespin"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 54,
+      "move": "inferno"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 62,
+      "move": "flareblitz"
+    }
+  ],
+  "order": 6,
+  "powers": [
+    "cobblemorigins:moves/airslash",
+    "cobblemorigins:moves/dragonclaw",
+    "cobblemorigins:moves/ember",
+    "cobblemorigins:moves/growl"
+  ]
+}

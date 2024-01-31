@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"cobblemorigins:abilities/overgrow"
+	],
+	"icon": "minecraft:azalea_leaves",
+	"order": 0,
+	"impact": 0,
+	"name": "Overgrow",
+	"description": " "
+}

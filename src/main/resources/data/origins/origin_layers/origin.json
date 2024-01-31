@@ -1,0 +1,14 @@
+{
+  "origins": [
+    "cobblemorigins:species/bulbasaur",
+    "cobblemorigins:species/ivysaur",
+    "cobblemorigins:species/venusaur",
+    "cobblemorigins:species/charmander",
+    "cobblemorigins:species/charmeleon",
+    "cobblemorigins:species/charizard",
+    "cobblemorigins:species/squirtle",
+    "cobblemorigins:species/wartortle",
+    "cobblemorigins:species/blastoise"
+  ],
+  "replace": "true"
+}

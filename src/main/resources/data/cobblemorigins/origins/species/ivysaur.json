@@ -1,0 +1,91 @@
+{
+  "icon": {
+    "item": "minecraft:stick",
+    "tag": "{CustomItem:\"cobblemorigins:ivysaur\"}"
+  },
+  "impact": 0,
+  "moves": [
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "growl"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "growth"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "tackle"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "vinewhip"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 9,
+      "move": "leechseed"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 12,
+      "move": "razorleaf"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 15,
+      "move": "poisonpowder"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 15,
+      "move": "sleeppowder"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 20,
+      "move": "seedbomb"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 25,
+      "move": "takedown"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 30,
+      "move": "sweetscent"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 35,
+      "move": "synthesis"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 40,
+      "move": "worryseed"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 45,
+      "move": "doubleedge"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 50,
+      "move": "solarbeam"
+    }
+  ],
+  "order": 2,
+  "powers": [
+    "cobblemorigins:moves/growl",
+    "cobblemorigins:moves/growth",
+    "cobblemorigins:moves/tackle",
+    "cobblemorigins:moves/vinewhip"
+  ]
+}

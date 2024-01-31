@@ -1,0 +1,76 @@
+{
+    "type": "apoli:multiple",
+    "name": "Razor Leaf",
+    "move_data": "cobblemorigins:grass",
+    "active": {
+        "type": "apoli:active_self",
+        "entity_action": {
+            "type": "apoli:and",
+            "actions": [
+                {
+                    "type": "apoli:execute_command",
+                    "command": "particle minecraft:block oak_leaves ~ ~1 ~ 0.5 0.5 0.5 2 20"
+                },
+                {
+                    "type": "apoli:play_sound",
+                    "sound": "block.cherry_leaves.break",
+                    "pitch": 1.5
+                },
+                {
+                    "type": "apoli:execute_command",
+                    "command": "tag @s add cobblemorigins.razor_leafing"
+                },
+                {
+                    "type": "apoli:execute_command",
+                    "command": "execute positioned ~ ~1.5 ~ run function cobblemorigins:moves/razor_leaf"
+                },
+                {
+                    "type": "apoli:spawn_entity",
+                    "entity_type": "armor_stand",
+                    "tag": "{Tags:[\"cobblemorigins.aux\"],Invulnerable:1b,DisabledSlots:4144959,Invisible:1b,Small:1b,Silent:1b,NoGravity:1b}",
+                    "entity_action": {
+                        "type": "apoli:and",
+                        "actions": [
+                            {
+                                "type": "apoli:execute_command",
+                                "command": "execute rotated as @p[tag=cobblemorigins.razor_leafing] run tp @s ~ ~1.5 ~ ~ ~"
+                            },
+                            {
+                                "type": "apoli:grant_power",
+                                "power": "*:auxiliar/razor_leaf",
+                                "source": "cobblemorigins:aux"
+                            }
+                        ]   
+                    }
+                },
+                {
+                    "type": "apoli:execute_command",
+                    "command": "tag @s remove cobblemorigins.razor_leafing"
+                }
+            ]
+        }
+    },
+    "hit": {
+        "type": "apoli:modify_projectile_damage",
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile_condition": {
+                "type": "apoli:nbt",
+                "nbt": "{Tags:[\"cobblemorigins.razor_leaf\"]}"
+            }
+        },
+        "target_action": {
+            "type": "apoli:and",
+            "actions": [
+                {
+                    "type": "apoli:damage",
+                    "amount": 5,
+                    "damage_type": "cobblemorigins:grass_slicing"
+                }
+            ]
+        },
+        "target_condition": {
+            "type": "apoli:living"
+        }
+    }
+}

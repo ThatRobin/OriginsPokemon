@@ -1,0 +1,40 @@
+{
+    "type": "apoli:active_self",
+    "name": "Sweet Scent",
+    "move_data": "cobblemorigins:normal",
+    "entity_action": {
+        "type": "apoli:and",
+        "actions": [
+            {
+                "type": "apoli:execute_command",
+                "command": "particle minecraft:cherry_leaves ~ ~1 ~ 0.5 0.5 0.5 0 20"
+            },
+            {
+                "type": "apoli:if_else",
+                "condition": {
+                    "type": "apoli:in_rain",
+                    "inverted": true
+                },
+                "if_action": {
+                    "type": "apoli:spawn_entity",
+                    "entity_type": "armor_stand",
+                    "tag": "{Tags:[\"cobblemorigins.sweet_scent\"],Invulnerable:1b,DisabledSlots:4144959,Invisible:1b,Small:1b,Silent:1b,NoGravity:1b}",
+                    "entity_action": {
+                        "type": "apoli:and",
+                        "actions": [
+                            {
+                                "type": "apoli:execute_command",
+                                "command": "tp ~ ~2 ~"
+                            },
+                            {
+                                "type": "apoli:grant_power",
+                                "power": "*:auxiliar/sweet_scent",
+                                "source": "cobblemorigins:aux"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

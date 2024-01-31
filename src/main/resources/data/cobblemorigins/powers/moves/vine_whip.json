@@ -1,0 +1,60 @@
+{
+    "type": "apoli:active_self",
+    "name": "Vine Whip",
+    "move_data": "cobblemorigins:grass",
+    "entity_action": {
+        "type": "apoli:and",
+        "actions": [
+            {
+                "type": "apoli:raycast",
+                "bientity_action": {
+                    "type": "apoli:and",
+                    "actions": [
+                        {
+                            "type": "apoli:damage",
+                            "amount": 4,
+                            "damage_type": "cobblemorigins:grass_whip"
+                        },
+                        {
+                            "type": "apoli:target_action",
+                            "action": {
+                                "type": "apoli:execute_command",
+                                "command": "particle minecraft:sweep_attack ~ ~1 ~"
+                            }
+                        },
+                        {
+                            "type": "apoli:actor_action",
+                            "action": {
+                                "type": "apoli:execute_command",
+                                "command": "function cobblemorigins:moves/whip"
+                            }
+                        },
+                        {
+                            "type": "apoli:if_else",
+                            "condition": {
+                                "type": "apoli:actor_condition",
+                                "condition": {
+                                    "type": "apoli:on_block"
+                                }
+                            },
+                            "if_action": {
+                                "type": "apoli:add_velocity",
+                                "z": 0.6
+                            },
+                            "else_action": {
+                                "type": "apoli:add_velocity",
+                                "z": -0.6
+                            }
+                        }
+                    ]   
+                },
+                "bientity_condition": {
+                    "type": "apoli:target_condition",
+                    "condition": {
+                        "type": "apoli:living"
+                    }
+                }
+            }
+        ]
+    }
+}

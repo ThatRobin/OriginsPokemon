@@ -1,0 +1,26 @@
+{
+    "name": "Chlorophyll",
+    "description": "Boosts your Speed in sunshine.",
+    "type": "apoli:modify_attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 1
+    },
+    "condition": {
+        "type": "apoli:and",
+        "conditions": [
+            {
+                "type": "apoli:exposed_to_sun"
+            },
+            {
+                "type": "apoli:biome",
+                "condition": {
+                    "type": "apoli:temperature",
+                    "comparison": ">=",
+                    "compare_to": 2
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "type": "apoli:active_self",
+    "name": "Petal Blizzard",
+    "move_data": "cobblemorigins:grass",
+    "entity_action": {
+        "type": "apoli:and",
+        "actions": [
+            {
+                "type": "apoli:area_of_effect",
+                "radius": 8,
+                "bientity_action": {
+                    "type": "apoli:and",
+                    "actions": [
+                        {
+                            "type": "apoli:damage",
+                            "amount": 9,
+                            "damage_type": "cobblemorigins:grass_petal"
+                        },
+                        {
+                            "type": "apoli:target_action",
+                            "action": {
+                                "type": "apoli:execute_command",
+                                "command": "particle minecraft:cherry_leaves ~ ~1 ~ 0.5 0.5 0.5 0 20"
+                            }
+                        }
+                    ]
+                },
+                "bientity_condition": {
+                    "type": "apoli:target_condition",
+                    "condition": {
+                        "type": "apoli:living"
+                    }
+                }
+            },
+            {
+                "type": "apoli:execute_command",
+                "command": "particle minecraft:cherry_leaves ~ ~1 ~ 0.5 0.5 0.5 0 20"
+            },
+            {
+                "type": "apoli:play_sound",
+                "sound": "entity.blaze.shoot",
+                "pitch": 1.5
+            }
+        ]
+    }
+}

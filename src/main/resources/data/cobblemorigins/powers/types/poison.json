@@ -1,0 +1,74 @@
+{
+    "name": "Poison type",
+    "description": "You're weak to Ground and Psychic attacks, but resistant to Fighting, Poison, Bug, Grass and Fairy moves. You're also immune to the poison effect, remove poison spikes (unimplemented), and will never miss the move toxic (unimplemented).",
+    "type": "apoli:multiple",
+    "stab": {
+        "type": "apoli:modify_damage_dealt",
+        "damage_condition": {
+            "type": "origins:in_tag",
+            "tag": "cobblemorigins:is_poison"
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 0.5
+        }
+    },
+    "weak": {
+        "type": "apoli:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:in_tag",
+                    "tag": "cobblemorigins:is_ground"
+                },
+                {
+                    "type": "origins:in_tag",
+                    "tag": "cobblemorigins:is_psychic"
+                }
+            ]
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 0.5
+        }
+    },
+    "resistant": {
+        "type": "apoli:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:in_tag",
+                    "tag": "cobblemorigins:is_fighting"
+                },
+                {
+                    "type": "origins:in_tag",
+                    "tag": "cobblemorigins:is_poison"
+                },
+                {
+                    "type": "origins:in_tag",
+                    "tag": "cobblemorigins:is_bug"
+                },
+                {
+                    "type": "origins:in_tag",
+                    "tag": "cobblemorigins:is_grass"
+                },
+                {
+                    "type": "origins:in_tag",
+                    "tag": "cobblemorigins:is_fairy"
+                }
+            ]
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.5
+        }
+    },
+    "effect_immunity": {
+        "type": "apoli:effect_immunity",
+        "effects": [
+            "poison"
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "type": "apoli:multiple",
+    "name": "Bullet Seed",
+    "move_data": "cobblemorigins:grass",
+    "non_rooted": {
+        "type": "apoli:fire_projectile",
+        "entity_type": "snowball",
+        "tag": "{Tags:[\"cobblemorigins.seed\",\"cobblemorigins.aux\",\"cobblemorigins.bullet_seed\"],Item:{id:\"minecraft:beetroot_seeds\",Count:1}}",
+        "speed": 1.6,
+        "count": 10,
+        "interval": 4,
+        "start_delay": 0,
+        "divergence": 0,
+        "sound": "entity.splash_potion.throw",
+        "condition": {
+            "type": "apoli:on_block",
+            "inverted": true,
+            "block_condition": {
+                "type": "apoli:in_tag",
+                "tag": "cobblemorigins:is_soil"
+            }
+        }
+    },
+    "rooted": {
+        "type": "apoli:fire_projectile",
+        "entity_type": "snowball",
+        "tag": "{Tags:[\"cobblemorigins.seed\",\"cobblemorigins.aux\",\"cobblemorigins.bullet_seed\"],Item:{id:\"minecraft:beetroot_seeds\",Count:1}}",
+        "speed": 2,
+        "count": 16,
+        "interval": 4,
+        "start_delay": 0,
+        "divergence": 0,
+        "sound": "entity.splash_potion.throw",
+        "condition": {
+            "type": "apoli:on_block",
+            "block_condition": {
+                "type": "apoli:in_tag",
+                "tag": "cobblemorigins:is_soil"
+            }
+        }
+    },
+    "hit": {
+        "type": "apoli:modify_projectile_damage",
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile_condition": {
+                "type": "apoli:nbt",
+                "nbt": "{Tags:[\"cobblemorigins.bullet_seed\"]}"
+            }
+        },
+        "target_action": {
+            "type": "apoli:damage",
+            "amount": 2,
+            "damage_type": "cobblemorigins:grass_bullet"
+        },
+        "target_condition": {
+            "type": "apoli:living"
+        }
+    }
+}

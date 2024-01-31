@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "origins": [
+    "cobblemorigins:abilities/overgrow",
+    "cobblemorigins:abilities/chlorophyll",
+    "cobblemorigins:abilities/bulletproof",
+    "cobblemorigins:abilities/insomnia"
+  ],
+  "allow_random": true,
+  "exclude_random": [
+  ],
+  "allow_random_unchoosable": false,
+  "hidden": false,
+  "order": 1,
+  "name": "Ability",
+  "gui_title": {
+      "choose_origin": "Choose your Abilty!",
+      "view_origin": "This is your Ability."
+  },
+  "missing_name": "None",
+  "missing_description": "You currently don't have an ability selected."
+}

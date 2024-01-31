@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"cobblemorigins:abilities/bulletproof"
+	],
+	"icon": "minecraft:shulker_shell",
+	"order": 0,
+	"impact": 0,
+	"name": "Bulletproof",
+	"description": " "
+}

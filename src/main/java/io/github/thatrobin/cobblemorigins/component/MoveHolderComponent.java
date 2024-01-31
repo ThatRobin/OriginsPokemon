@@ -23,6 +23,7 @@ public interface MoveHolderComponent extends AutoSyncedComponent, ServerTickingC
     boolean learnMove(PowerType<?> powerType);
 
     boolean hasMove(PowerType<?> powerType);
+    void clearLearnedMoves();
 
     void deselectMove(Integer index);
 
@@ -31,6 +32,7 @@ public interface MoveHolderComponent extends AutoSyncedComponent, ServerTickingC
     boolean selectMove(PowerType<?> powerType, Integer index);
 
     boolean hasMoveSelected(PowerType<?> powerType);
+    void clearSelectedMoves();
 
     <T extends Power> T getPower(Integer index);
 
@@ -51,6 +53,7 @@ public interface MoveHolderComponent extends AutoSyncedComponent, ServerTickingC
     void incrementSelection();
 
     void decrementSelection();
+    int getUsedSlotCount();
     int getMoveSelection();
 
     void sync();

@@ -1,0 +1,20 @@
+{
+  "origin.cobblemorigins.species/blastoise.description": "Dispara chorros de agua a travÃ©s de los caÃ±ones de su caparazÃ³n, capaces de agujerear incluso el acero.",
+  "origin.cobblemorigins.species/blastoise.name": "Blastoise",
+  "origin.cobblemorigins.species/bulbasaur.description": "Desde que nace, crece alimentÃ¡ndose de los nutrientes que contiene la semilla de su lomo.",
+  "origin.cobblemorigins.species/bulbasaur.name": "Bulbasaur",
+  "origin.cobblemorigins.species/charizard.description": "Sus potentes alas le permiten volar a una altura de 1400 m. Escupe llamaradas que llegan a alcanzar temperaturas elevadÃ­simas.",
+  "origin.cobblemorigins.species/charizard.name": "Charizard",
+  "origin.cobblemorigins.species/charmander.description": "Este PokÃ©mon nace con una llama en la punta de la cola. Si se le apagara, fallecerÃ­a.",
+  "origin.cobblemorigins.species/charmander.name": "Charmander",
+  "origin.cobblemorigins.species/charmeleon.description": "Si se exalta en combate, expulsa intensas llamaradas que incineran todo a su alrededor.",
+  "origin.cobblemorigins.species/charmeleon.name": "Charmeleon",
+  "origin.cobblemorigins.species/ivysaur.description": "La luz del sol lo fortalece y hace que le crezca el capullo que tiene en el lomo.",
+  "origin.cobblemorigins.species/ivysaur.name": "Ivysaur",
+  "origin.cobblemorigins.species/squirtle.description": "Cuando se siente en peligro, se esconde en su caparazÃ³n y escupe chorros de agua por la boca.",
+  "origin.cobblemorigins.species/squirtle.name": "Squirtle",
+  "origin.cobblemorigins.species/venusaur.description": "La flor que tiene en el lomo libera un delicado aroma, que tiene un efecto relajante en combate.",
+  "origin.cobblemorigins.species/venusaur.name": "Venusaur",
+  "origin.cobblemorigins.species/wartortle.description": "Utiliza hÃ¡bilmente sus peludas orejas y la cola para mantener el equilibrio al nadar.",
+  "origin.cobblemorigins.species/wartortle.name": "Wartortle"
+}

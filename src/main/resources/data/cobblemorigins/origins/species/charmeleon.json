@@ -1,0 +1,96 @@
+{
+  "icon": {
+    "item": "minecraft:stick",
+    "tag": "{CustomItem:\"cobblemorigins:charmeleon\"}"
+  },
+  "impact": 0,
+  "moves": [
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "ember"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "growl"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "scratch"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "smokescreen"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 12,
+      "move": "dragonbreath"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 13,
+      "move": "metalclaw"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 17,
+      "move": "dragonrage"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 19,
+      "move": "firefang"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 20,
+      "move": "rage"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 24,
+      "move": "slash"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 30,
+      "move": "flamethrower"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 32,
+      "move": "flameburst"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 37,
+      "move": "scaryface"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 42,
+      "move": "firespin"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 48,
+      "move": "inferno"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 54,
+      "move": "flareblitz"
+    }
+  ],
+  "order": 5,
+  "powers": [
+    "cobblemorigins:moves/ember",
+    "cobblemorigins:moves/growl",
+    "cobblemorigins:moves/scratch",
+    "cobblemorigins:moves/smokescreen"
+  ]
+}

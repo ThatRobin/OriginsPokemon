@@ -1,0 +1,14 @@
+{
+    "type": "apoli:fire_projectile",
+    "name": "Poison Powder",
+    "move_data": "cobblemorigins:poison_powder",
+    "entity_type": "armor_stand",
+    "tag": "{Tags:[\"cobblemorigins.powder\",\"cobblemorigins.aux\"],Invulnerable:1b,DisabledSlots:4144959,Invisible:1b,Small:1b,Silent:1b}",
+    "speed": 1.5,
+    "projectile_action": {
+        "type": "apoli:grant_power",
+        "power": "*:auxiliar/poison_powder",
+        "source": "cobblemorigins:aux"
+    },
+    "sound": "entity.splash_potion.throw"
+}

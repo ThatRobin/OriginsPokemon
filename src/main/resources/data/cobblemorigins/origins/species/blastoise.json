@@ -1,0 +1,96 @@
+{
+  "icon": {
+    "item": "minecraft:stick",
+    "tag": "{CustomItem:\"cobblemorigins:blastoise\"}"
+  },
+  "impact": 0,
+  "moves": [
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "flashcannon"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "tackle"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "tailwhip"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "watergun"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 1,
+      "move": "withdraw"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 9,
+      "move": "rapidspin"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 12,
+      "move": "bite"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 13,
+      "move": "bubble"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 15,
+      "move": "waterpulse"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 20,
+      "move": "protect"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 25,
+      "move": "raindance"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 30,
+      "move": "aquatail"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 35,
+      "move": "shellsmash"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 42,
+      "move": "irondefense"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 49,
+      "move": "hydropump"
+    },
+    {
+      "type": "cobblemorigins:level_up",
+      "learn_at": 56,
+      "move": "skullbash"
+    }
+  ],
+  "order": 9,
+  "powers": [
+    "cobblemorigins:moves/flashcannon",
+    "cobblemorigins:moves/tackle",
+    "cobblemorigins:moves/tailwhip",
+    "cobblemorigins:moves/watergun"
+  ]
+}

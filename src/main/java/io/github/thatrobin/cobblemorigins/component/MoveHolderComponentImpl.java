@@ -46,6 +46,11 @@ public class MoveHolderComponentImpl implements MoveHolderComponent {
     }
 
     @Override
+    public void clearLearnedMoves() {
+        learnedMoves.clear();
+    }
+
+    @Override
     public void deselectMove(Integer index) {
         StringBuilder errorMessage = new StringBuilder("Cannot remove a non-existing power");
         if(!indexedMoves.containsKey(index)) return;
@@ -66,15 +71,17 @@ public class MoveHolderComponentImpl implements MoveHolderComponent {
             power.onLost();
         }
 
+        PowerHolderComponent component = PowerHolderComponent.KEY.get(this.owner);
         if (powerType instanceof MultiplePowerType<?> multiplePowerType) {
-            PowerHolderComponent component = PowerHolderComponent.KEY.get(this.owner);
             multiplePowerType.getSubPowers()
                     .stream()
                     .filter(PowerTypeRegistry::contains)
                     .map(PowerTypeRegistry::get)
                     .forEach((pt) -> component.removePower(pt, multiplePowerType.getIdentifier()));
-            component.sync();
+        } else {
+            component.removePower(powerType, powerType.getIdentifier());
         }
+        component.sync();
     }
 
     @Override
@@ -87,21 +94,24 @@ public class MoveHolderComponentImpl implements MoveHolderComponent {
 
     @Override
     public boolean selectMove(PowerType<?> powerType, Integer index) {
+        if(!learnedMoves.contains(powerType)) return false;
         StringBuilder errorMessage = new StringBuilder("Cannot add a non-existing power");
         if (powerType == null) {
             Apoli.LOGGER.error(errorMessage.append(" to entity ").append(owner.getName().getString()));
             return false;
         }
 
+        PowerHolderComponent component = PowerHolderComponent.KEY.get(this.owner);
         if (powerType instanceof MultiplePowerType<?> multiplePowerType) {
-            PowerHolderComponent component = PowerHolderComponent.KEY.get(this.owner);
             multiplePowerType.getSubPowers()
                     .stream()
                     .filter(PowerTypeRegistry::contains)
                     .map(PowerTypeRegistry::get)
                     .forEach((pt) -> component.addPower(pt, multiplePowerType.getIdentifier()));
-            component.sync();
+        } else {
+            component.addPower(powerType, powerType.getIdentifier());
         }
+        component.sync();
 
         Power power = powerType.create(owner);
         power.onGained();
@@ -121,6 +131,18 @@ public class MoveHolderComponentImpl implements MoveHolderComponent {
     @Override
     public boolean hasMoveSelected(PowerType<?> powerType) {
         return moveSet.containsKey(powerType);
+    }
+
+    @Override
+    public void clearSelectedMoves() {
+        PowerHolderComponent component = PowerHolderComponent.KEY.get(this.owner);
+        moveSet.forEach(((powerType, power) -> {
+            if(component.hasPower(powerType)) {
+                component.removePower(powerType, powerType.getIdentifier());
+            }
+        }));
+        indexedMoves.clear();
+        moveSet.clear();
     }
 
     @Override
@@ -202,7 +224,8 @@ public class MoveHolderComponentImpl implements MoveHolderComponent {
 
     @Override
     public void incrementSelection() {
-        if(this.selectedMoveIndex==Collections.max(this.getUsedSlots())) {
+        if(this.getUsedSlots().isEmpty()) return;
+        if(this.selectedMoveIndex==this.getUsedSlotCount()) {
             this.selectedMoveIndex = 0;
         } else {
             this.selectedMoveIndex++;
@@ -211,11 +234,17 @@ public class MoveHolderComponentImpl implements MoveHolderComponent {
 
     @Override
     public void decrementSelection() {
+        if(this.getUsedSlots().isEmpty()) return;
         if(this.selectedMoveIndex-1==-1) {
-        this.selectedMoveIndex = Collections.max(this.getUsedSlots());
+        this.selectedMoveIndex = this.getUsedSlotCount();
     } else {
         this.selectedMoveIndex--;
     }
+    }
+
+    @Override
+    public int getUsedSlotCount() {
+        return this.getUsedSlots().stream().mapToInt(v->v).max().orElse(0);
     }
 
     @Override

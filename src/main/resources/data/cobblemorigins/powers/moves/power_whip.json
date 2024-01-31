@@ -1,0 +1,61 @@
+{
+    "type": "apoli:active_self",
+    "name": "Power Whip",
+    "move_data": "cobblemorigins:grass",
+    "entity_action": {
+        "type": "apoli:and",
+        "actions": [
+            {
+                "type": "apoli:raycast",
+                "bientity_action": {
+                    "type": "apoli:and",
+                    "actions": [
+                        {
+                            "type": "apoli:damage",
+                            "amount": 12,
+                            "damage_type": "cobblemorigins:grass_whip"
+                        },
+                        {
+                            "type": "apoli:target_action",
+                            "action": {
+                                "type": "apoli:execute_command",
+                                "command": "particle minecraft:sweep_attack ~ ~0.9 ~"
+                            }
+                        },
+                        {
+                            "type": "apoli:target_action",
+                            "action": {
+                                "type": "apoli:execute_command",
+                                "command": "particle minecraft:sweep_attack ~ ~1.1 ~"
+                            }
+                        },
+                        {
+                            "type": "apoli:actor_action",
+                            "action": {
+                                "type": "apoli:execute_command",
+                                "command": "function cobblemorigins:moves/whip"
+                            }
+                        },
+                        {
+                            "type": "apoli:target_action",
+                            "action": {
+                                "type": "apoli:execute_command",
+                                "command": "playsound minecraft:entity.player.attack.crit master @a ~ ~ ~ 1 1"
+                            }
+                        },
+                        {
+                            "type": "apoli:add_velocity",
+                            "z": 1
+                        }
+                    ]   
+                },
+                "bientity_condition": {
+                    "type": "apoli:target_condition",
+                    "condition": {
+                        "type": "apoli:living"
+                    }
+                }
+            }
+        ]
+    }
+}

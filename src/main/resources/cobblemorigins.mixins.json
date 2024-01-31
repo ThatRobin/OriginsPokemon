@@ -4,18 +4,11 @@
 	"package": "io.github.thatrobin.cobblemorigins.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"LimbAnimatorAccessor",
-		"OriginInvoker",
-		"OriginLayerMixin",
-		"OriginLayersMixin",
-		"OriginsMixin",
-		"OriginsRegistryInvoker",
-		"PlayerOriginComponentMixin",
-		"PowerHolderComponentMixin"
+		"PlayerOriginComponentMixin"
 	],
 	"client": [
-		"InGameHudMixin",
-		"OriginDisplayScreenMixin"
+		"ItemRendererMixin",
+		"ModelLoaderMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

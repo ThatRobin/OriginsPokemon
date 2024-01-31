@@ -1,0 +1,73 @@
+{
+    "type": "apoli:multiple",
+    "name": "Worry Seed",
+    "move_data": "cobblemorigins:grass",
+    "non_rooted": {
+        "type": "apoli:fire_projectile",
+        "entity_type": "snowball",
+        "tag": "{Tags:[\"cobblemorigins.seed\",\"cobblemorigins.aux\",\"cobblemorigins.worry_seed\"],Item:{id:\"minecraft:pitcher_pod\",Count:1}}",
+        "speed": 1,
+        "divergence": 1,
+        "sound": "entity.splash_potion.throw",
+        "condition": {
+            "type": "apoli:on_block",
+            "inverted": true,
+            "block_condition": {
+                "type": "apoli:in_tag",
+                "tag": "cobblemorigins:is_soil"
+            }
+        }
+    },
+    "rooted": {
+        "type": "apoli:fire_projectile",
+        "entity_type": "snowball",
+        "tag": "{Tags:[\"cobblemorigins.seed\",\"cobblemorigins.aux\",\"cobblemorigins.worry_seed\"],Item:{id:\"minecraft:pitcher_pod\",Count:1}}",
+        "speed": 1.6,
+        "divergence": 1,
+        "sound": "entity.splash_potion.throw",
+        "condition": {
+            "type": "apoli:on_block",
+            "block_condition": {
+                "type": "apoli:in_tag",
+                "tag": "cobblemorigins:is_soil"
+            }
+        }
+    },
+    "hit": {
+        "type": "apoli:modify_projectile_damage",
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile_condition": {
+                "type": "apoli:nbt",
+                "nbt": "{Tags:[\"cobblemorigins.worry_seed\"]}"
+            }
+        },
+        "target_action": {
+            "type": "apoli:and",
+            "actions": [
+                {
+                    "type": "apoli:if_else",
+                    "condition": {
+                        "type": "apoli:entity_type",
+                        "entity_type": "player"
+                    },
+                    "if_action": {
+                        "type": "apoli:execute_command",
+                        "command": "say add here ability change"
+                    },
+                    "else_action": {
+                        "type": "apoli:clear_effect",
+                        "effect": "slowness"
+                    }
+                },
+                {
+                    "type": "apoli:execute_command",
+                    "command": "particle dust 1 1 1 2 ~ ~ ~ 0.5 0.5 0.5 0 10"
+                }
+            ]
+        },
+        "target_condition": {
+            "type": "apoli:living"
+        }
+    }
+}

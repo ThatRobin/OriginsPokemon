@@ -1,0 +1,51 @@
+{
+    "type": "apoli:multiple",
+    "contact": {
+        "type": "apoli:action_over_time",
+        "interval": 1,
+        "rising_action": {
+            "type": "apoli:and",
+            "actions": [
+                {
+                    "type": "apoli:spawn_entity",
+                    "entity_type": "armor_stand",
+                    "tag": "{Tags:[\"cobblemorigins.powder_cloud\",\"cobblemorigins.aux\"],Invulnerable:1b,DisabledSlots:4144959,Invisible:1b,Small:1b,Silent:1b,NoGravity:1b}",
+                    "entity_action": {
+                        "type": "apoli:grant_power",
+                        "power": "*:auxiliar/sleep_powder_cloud",
+                        "source": "cobblemorigins:aux"
+                    }
+                },
+                {
+                    "type": "apoli:execute_command",
+                    "command": "function cobblemorigins:die"
+                }
+            ]
+        },
+        "condition": {
+            "type": "apoli:or",
+            "conditions": [
+                {
+                    "type": "apoli:block_collision",
+                    "offset_x": 0.1,
+                    "offset_y": 0.1,
+                    "offset_z": 0.1
+                },
+                {
+                    "type": "apoli:block_collision",
+                    "offset_x": -0.1,
+                    "offset_y": -0.1,
+                    "offset_z": -0.1
+                }
+            ]
+        }
+    },
+    "particles": {
+        "type": "apoli:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "apoli:execute_command",
+            "command": "particle dust 0.2 0.7 0.7 1 ~ ~ ~ 0 0 0 0 1"
+        }
+    }
+}

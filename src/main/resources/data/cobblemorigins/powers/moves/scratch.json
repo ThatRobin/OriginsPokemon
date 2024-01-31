@@ -1,0 +1,49 @@
+{
+    "type": "apoli:active_self",
+    "name": "Scratch",
+    "move_data": "cobblemorigins:normal",
+    "entity_action": {
+        "type": "apoli:and",
+        "actions": [
+            {
+                "type": "apoli:raycast",
+                "bientity_action": {
+                    "type": "apoli:and",
+                    "actions": [
+                        {
+                            "type": "apoli:damage",
+                            "amount": 4,
+                            "damage_type": "cobblemorigins:normal_scratch"
+                        },
+                        {
+                            "type": "apoli:target_action",
+                            "action": {
+                                "type": "apoli:and",
+                                "actions": [
+                                    {
+                                        "type": "apoli:execute_command",
+                                        "command": "particle minecraft:sweep_attack ~ ~1 ~"
+                                    },
+                                    {
+                                        "type": "apoli:execute_command",
+                                        "command": "particle minecraft:sweep_attack ~ ~1.4 ~"
+                                    },
+                                    {
+                                        "type": "apoli:execute_command",
+                                        "command": "particle minecraft:sweep_attack ~ ~0.6 ~"
+                                    }
+                                ]
+                            }
+                        }
+                    ]   
+                },
+                "bientity_condition": {
+                    "type": "apoli:target_condition",
+                    "condition": {
+                        "type": "apoli:living"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,179 @@
+{
+    "type": "apoli:multiple",
+    "name": "Leech Seed",
+    "move_data": "cobblemorigins:grass",
+    "non_rooted": {
+        "type": "apoli:fire_projectile",
+        "entity_type": "snowball",
+        "tag": "{Tags:[\"cobblemorigins.seed\",\"cobblemorigins.aux\",\"cobblemorigins.leech_seed\"],Item:{id:\"minecraft:wheat_seeds\",Count:1}}",
+        "speed": 0.8,
+        "count": 3,
+        "interval": 10,
+        "start_delay": 0,
+        "divergence": 16,
+        "sound": "entity.splash_potion.throw",
+        "condition": {
+            "type": "apoli:on_block",
+            "inverted": true,
+            "block_condition": {
+                "type": "apoli:in_tag",
+                "tag": "cobblemorigins:is_soil"
+            }
+        }
+    },
+    "rooted": {
+        "type": "apoli:fire_projectile",
+        "entity_type": "snowball",
+        "tag": "{Tags:[\"cobblemorigins.seed\",\"cobblemorigins.aux\",\"cobblemorigins.leech_seed\"],Item:{id:\"minecraft:wheat_seeds\",Count:1}}",
+        "speed": 1.2,
+        "count": 4,
+        "interval": 10,
+        "start_delay": 0,
+        "divergence": 16,
+        "sound": "entity.splash_potion.throw",
+        "condition": {
+            "type": "apoli:on_block",
+            "block_condition": {
+                "type": "apoli:in_tag",
+                "tag": "cobblemorigins:is_soil"
+            }
+        }
+    },
+    "hit": {
+        "type": "apoli:modify_projectile_damage",
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile_condition": {
+                "type": "apoli:nbt",
+                "nbt": "{Tags:[\"cobblemorigins.leech_seed\"]}"
+            }
+        },
+        "target_condition": {
+            "type": "apoli:living"
+        },
+        "self_action": {
+            "type": "apoli:delay",
+            "ticks": 1,
+            "action": {
+                "type": "apoli:area_of_effect",
+                "radius": 32,
+                "bientity_action": {
+                    "type": "apoli:and",
+                    "actions": [
+                        {
+                            "type": "origins:add_to_set",
+                            "set": "*:*_set",
+                            "time_limit": 200
+                        },
+                        {
+                            "type": "apoli:actor_action",
+                            "action": {
+                                "type": "apoli:execute_command",
+                                "command": "tag @e remove cobblemorigins.seed_target"
+                            }
+                        }
+                    ]
+                },
+                "bientity_condition": {
+                    "type": "apoli:and",
+                    "conditions": [
+                        {
+                            "type": "apoli:target_condition",
+                            "condition": {
+                                "type": "apoli:or",
+                                "inverted": true,
+                                "conditions": [
+                                    {
+                                        "type": "apoli:power",
+                                        "power": "*:types/grass"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "origins:target_condition",
+                            "inverted": true,
+                            "condition": {
+                                "type": "apoli:nbt",
+                                "nbt": "{Tags:[\"cobblemorigins.seeded\"]}"
+                            }
+                        },
+                        {
+                            "type": "origins:target_condition",
+                            "condition": {
+                                "type": "apoli:nbt",
+                                "nbt": "{Tags:[\"cobblemorigins.seed_target\"]}"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "target_action": {
+            "type": "apoli:execute_command",
+            "command": "tag @s add cobblemorigins.seed_target"
+        }
+    },
+    "set": {
+        "type": "origins:entity_set",
+        "action_on_add": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "apoli:execute_command",
+                "command": "tag @s add cobblemorigins.seeded"
+            }
+        },
+        "action_on_remove": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "apoli:execute_command",
+                "command": "tag @s remove cobblemorigins.seeded"
+            }
+        }
+    },
+    "seeded": {
+        "type": "apoli:action_over_time",
+        "interval": 40,
+        "entity_action": {
+            "type": "origins:action_on_set",
+            "set": "*:*_set",
+            "bientity_action": {
+                "type": "apoli:if_else",
+                "condition": {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "apoli:nbt",
+                        "nbt": "{Tags:[\"cobblemorigins.seeded\"]}"
+                    }
+                },
+                "if_action": {
+                    "type": "apoli:and",
+                    "actions": [
+                        {
+                            "type": "apoli:actor_action",
+                            "action": {
+                                "type": "origins:heal",
+                                "amount": 2
+                            }
+                        },
+                        {
+                            "type": "apoli:damage",
+                            "amount": 2,
+                            "damage_type": "cobblemorigins:grass_leech"
+                        }
+                    ]
+                },
+                "else_action": {
+                    "type": "origins:remove_from_set",
+                    "set": "*:*_set"
+                }
+            }
+        },
+        "condition": {
+            "type": "origins:set_size",
+            "set": "*:*_set",
+            "comparison": ">",
+            "compare_to": 0
+        }   
+    }
+}

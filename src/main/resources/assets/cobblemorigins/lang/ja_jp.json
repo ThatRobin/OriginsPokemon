@@ -1,0 +1,20 @@
+{
+  "origin.cobblemorigins.species/blastoise.description": "ç”²ç¾…ã�®ã€€ãƒ­ã‚±ãƒƒãƒˆç ²ã€€ã�‹ã‚‰ å™´ã��å‡ºã�—ã�Ÿã€€ã‚¸ã‚§ãƒƒãƒˆæ°´æµ�ã�¯ ã�¶åŽšã�„ã€€é‰„æ�¿ã‚‚ã€€ã�¤ã‚‰ã�¬ã��ã€‚",
+  "origin.cobblemorigins.species/blastoise.name": "ã‚«ãƒ¡ãƒƒã‚¯ã‚¹",
+  "origin.cobblemorigins.species/bulbasaur.description": "ç”Ÿã�¾ã‚Œã�¦ã€€ã�—ã�°ã‚‰ã��ã�®ã€€ã�‚ã�„ã�  èƒŒä¸­ã�®ã€€ã‚¿ãƒ�ã�«ã€€ã�¤ã�¾ã�£ã�Ÿ æ „é¤Šã‚’ã€€ã�¨ã�£ã�¦ã€€è‚²ã�¤ã€‚",
+  "origin.cobblemorigins.species/bulbasaur.name": "ãƒ•ã‚·ã‚®ãƒ€ãƒ�",
+  "origin.cobblemorigins.species/charizard.description": "åœ°ä¸Šã€€ï¼‘ï¼”ï¼�ï¼�ãƒ¡ãƒ¼ãƒˆãƒ«ã€€ã�¾ã�§ ç¾½ã‚’ã€€ä½¿ã�£ã�¦ã€€é£›ã�¶ã�“ã�¨ã�Œã�§ã��ã‚‹ã€‚ é«˜ç†±ã�®ã€€ç‚Žã‚’ã€€å��ã��ã€‚",
+  "origin.cobblemorigins.species/charizard.name": "ãƒªã‚¶ãƒ¼ãƒ‰ãƒ³",
+  "origin.cobblemorigins.species/charmander.description": "ç”Ÿã�¾ã‚Œã�Ÿã�¨ã��ã�‹ã‚‰ã€€ã�—ã�£ã�½ã�«ã€€ç‚Žã�Œ ã�¨ã‚‚ã�£ã�¦ã�„ã‚‹ã€‚ã€€ç‚Žã�Œã€€æ¶ˆã�ˆã�Ÿã�¨ã�� ã��ã�®ã€€å‘½ã�¯ã€€çµ‚ã‚�ã�£ã�¦ã€€ã�—ã�¾ã�†ã€‚",
+  "origin.cobblemorigins.species/charmander.name": "ãƒ’ãƒˆã‚«ã‚²",
+  "origin.cobblemorigins.species/charmeleon.description": "æˆ¦ã�„ã�§ã€€æ°—æŒ�ã�¡ã�Œã€€ã�Ÿã�‹ã�¶ã‚‹ã�¨ ç�¼ç†±ã�®ã€€ç‚Žã‚’ã€€å�¹ã��ã�ªã�Œã‚‰ ã�‚ã�Ÿã‚Šã‚’ã€€ç‡ƒã‚„ã�—ã�¦ã�¾ã‚�ã‚‹ã€‚",
+  "origin.cobblemorigins.species/charmeleon.name": "ãƒªã‚¶ãƒ¼ãƒ‰",
+  "origin.cobblemorigins.species/ivysaur.description": "å¤ªé™½ã�®ã€€å…‰ã‚’ã€€æµ´ã�³ã‚‹ã�»ã�© ä½“ã�«ã€€åŠ›ã�Œã€€ã‚�ã�„ã�¦ã€€èƒŒä¸­ã�® ã�¤ã�¼ã�¿ã�Œã€€è‚²ã�£ã�¦ã�„ã��ã€‚",
+  "origin.cobblemorigins.species/ivysaur.name": "ãƒ•ã‚·ã‚®ã‚½ã‚¦",
+  "origin.cobblemorigins.species/squirtle.description": "å�±ã�ªã��ã�ªã‚‹ã�¨ã€€ç”²ç¾…ã�«ã€€æ‰‹è¶³ã‚’ å¼•ã�£ã�“ã‚�ã�¦ã€€èº«ã‚’ã€€å®ˆã‚Šã�ªã�Œã‚‰ å�£ã�‹ã‚‰ã€€æ°´ã‚’ã€€å�¹ã��å‡ºã�—ã�¦ã�„ã‚‹ã€‚",
+  "origin.cobblemorigins.species/squirtle.name": "ã‚¼ãƒ‹ã‚¬ãƒ¡",
+  "origin.cobblemorigins.species/venusaur.description": "èŠ±ã�‹ã‚‰ã€€ã�†ã�£ã�¨ã‚Šã�™ã‚‹ã€€é¦™ã‚Šã�Œ ã�Ÿã� ã‚ˆã�„ã€€æˆ¦ã�†ã‚‚ã�®ã�®ã€€æ°—æŒ�ã�¡ã‚’ ã�ªã� ã‚�ã�¦ã�—ã�¾ã�†ã€‚",
+  "origin.cobblemorigins.species/venusaur.name": "ãƒ•ã‚·ã‚®ãƒ�ãƒŠ",
+  "origin.cobblemorigins.species/wartortle.description": "ã�µã�•ã�µã�•ã�®ã€€è€³ã�¨ã€€ã�—ã�£ã�½ã‚’ ã�Ÿã��ã�¿ã�«ã€€æ“�ã�£ã�¦ã€€æ°´ä¸­ã�§ã�® ãƒ�ãƒ©ãƒ³ã‚¹ã‚’ã€€ã�Ÿã‚‚ã�¤ã€‚",
+  "origin.cobblemorigins.species/wartortle.name": "ã‚«ãƒ¡ãƒ¼ãƒ«"
+}

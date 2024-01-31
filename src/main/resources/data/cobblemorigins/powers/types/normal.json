@@ -1,0 +1,48 @@
+{
+    "name": "Normal type",
+    "description": " ",
+    "type": "apoli:multiple",
+    "stab": {
+        "type": "apoli:modify_damage_dealt",
+        "damage_condition": {
+            "type": "origins:in_tag",
+            "tag": "cobblemorigins:is_normal"
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 0.5
+        }
+    },
+    "weak": {
+        "type": "apoli:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:in_tag",
+                    "tag": "cobblemorigins:is_fighting"
+                }
+            ]
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 0.5
+        }
+    },
+    "immune": {
+        "type": "apoli:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:in_tag",
+                    "tag": "cobblemorigins:is_ghost"
+                }
+            ]
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -1
+        }
+    }
+}

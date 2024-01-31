@@ -19,9 +19,12 @@
 			"io.github.thatrobin.cobblemorigins.Cobblemorigins"
 		],
 		"fabric-datagen": [
-			"io.github.thatrobin.cobblemorigins.utils.MoveDataGeneration"
+			"io.github.thatrobin.cobblemorigins.utils.CobblemoriginsDataGeneration"
 		],
 		"cardinal-components-entity": [
+			"io.github.thatrobin.cobblemorigins.Cobblemorigins"
+		],
+		"calio:ordered-resource-listener": [
 			"io.github.thatrobin.cobblemorigins.Cobblemorigins"
 		]
 	},
@@ -33,10 +36,10 @@
 	"mixins": [
 		"cobblemorigins.mixins.json"
 	],
-	"2accessWidener": "cobblemorigins.accesswidener",
+	"accessWidener": "cobblemorigins.accesswidener",
 	"depends": {
 		"fabricloader": ">=0.15.3",
 		"fabric": "*",
-		"minecraft": "1.20.1"
+		"minecraft": "1.20.x"
 	}
 }

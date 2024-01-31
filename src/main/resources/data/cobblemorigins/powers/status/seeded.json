@@ -1,0 +1,12 @@
+{
+    "type": "apoli:multiple",
+    "remove": {
+        "type": "apoli:action_over_time",
+        "interval": 500,
+        "entity_action": {
+            "type": "apoli:revoke_power",
+            "power": "*:*",
+            "source": "cobblemorigins:status"
+        }
+    }
+}

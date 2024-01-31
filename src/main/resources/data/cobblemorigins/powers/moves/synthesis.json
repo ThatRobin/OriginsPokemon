@@ -1,0 +1,73 @@
+{
+    "type": "apoli:active_self",
+    "name": "Synthesis",
+    "move_data": "cobblemorigins:grass",
+    "entity_action": {
+        "type": "apoli:if_else_list",
+        "actions": [
+            {
+                "condition": {
+                    "type": "apoli:and",
+                    "conditions": [
+                        {
+                            "type": "apoli:exposed_to_sun"
+                        },
+                        {
+                            "type": "apoli:or",
+                            "conditions": [
+                                {
+                                    "type": "apoli:biome",
+                                    "condition": {
+                                        "type": "apoli:temperature",
+                                        "comparison": ">=",
+                                        "compare_to": 2
+                                    }
+                                },
+                                {
+                                    "type": "apoli:in_block",
+                                    "block_condition": {
+                                        "type": "apoli:height",
+                                        "comparison": ">=",
+                                        "compare_to": 128
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "action": {
+                    "type": "apoli:heal",
+                    "amount": 14
+                }
+            },
+            {
+                "condition": {
+                    "type": "apoli:exposed_to_sun"
+                },
+                "action": {
+                    "type": "apoli:heal",
+                    "amount": 10
+                }
+            },
+            {
+                "condition": {
+                    "type": "apoli:exposed_to_sky"
+                },
+                "action": {
+                    "type": "apoli:heal",
+                    "amount": 5
+                }
+            },
+            {
+                "condition": {
+                    "type": "apoli:constant",
+                    "value": true
+                },
+                "action": {
+                    "type": "apoli:heal",
+                    "amount": 2
+                }
+            }
+        ]
+    }
+}

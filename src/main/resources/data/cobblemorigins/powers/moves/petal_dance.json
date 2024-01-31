@@ -1,0 +1,121 @@
+{
+    "type": "apoli:multiple",
+    "name": "petal Dance",
+    "move_data": "cobblemorigins:grass",
+    "active": {
+        "type": "apoli:active_self",
+        "entity_action": {
+            "type": "apoli:and",
+            "actions": [
+                {
+                    "type": "apoli:grant_power",
+                    "power": "*:status/repeating_move",
+                    "source": "cobblemorigins:status"
+                },
+                {
+                    "type": "apoli:execute_command",
+                    "command": "particle minecraft:cherry_leaves ~ ~1 ~ 0.5 0.5 0.5 0 20"
+                },
+                {
+                    "type": "apoli:change_resource",
+                    "resource": "*:*_res",
+                    "change": 1
+                },
+                {
+                    "type": "apoli:area_of_effect",
+                    "radius": 8,
+                    "bientity_action": {
+                        "type": "apoli:target_action",
+                        "action": {
+                            "type": "apoli:execute_command",
+                            "command": "tag @s add cobblemorigins.petal_detect"
+                        }
+                    },
+                    "bientity_condition": {
+                        "type": "apoli:target_condition",
+                        "condition": {
+                            "type": "apoli:living"
+                        }
+                    }
+                },
+                {
+                    "type": "apoli:execute_command",
+                    "command": "tag @e[tag=cobblemorigins.petal_detect,limit=1,sort=nearest] add cobblemorigins.petal_chose"
+                },
+                {
+                    "type": "apoli:area_of_effect",
+                    "radius": 8,
+                    "bientity_action": {
+                        "type": "apoli:and",
+                        "actions": [
+                            {
+                                "type": "apoli:damage",
+                                "amount": 12,
+                                "damage_type": "cobblemorigins:grass_petal_dance"
+                            },
+                            {
+                                "type": "apoli:target_action",
+                                "action": {
+                                    "type": "apoli:execute_command",
+                                    "command": "particle minecraft:cherry_leaves ~ ~1 ~ 0.5 0.5 0.5 0 20"
+                                }
+                            },
+                            {
+                                "type": "apoli:target_action",
+                                "action": {
+                                    "type": "apoli:execute_command",
+                                    "command": "tag @s remove cobblemorigins.petal_chose"
+                                }
+                            }
+                        ]
+                    },
+                    "bientity_condition": {
+                        "type": "apoli:target_condition",
+                        "condition": {
+                            "type": "apoli:nbt",
+                            "nbt": "{Tags:[\"cobblemorigins.petal_chose\"]}"
+                        }
+                    }
+                },
+                {
+                    "type": "apoli:execute_command",
+                    "command": "tag @e remove cobblemorigins.petal_detect"
+                }
+            ]
+        }
+    },
+    "res": {
+        "type": "apoli:resource",
+        "min": 0,
+        "max": 4,
+        "hud_render": {
+            "should_render": true,
+            "inverted": true
+        },
+        "max_action": {
+            "type": "apoli:and",
+            "actions": [
+                {
+                    "type": "apoli:revoke_power",
+                    "power": "*:status/repeating_move",
+                    "source": "cobblemorigins:status"
+                },
+                {
+                    "type": "apoli:apply_effect",
+                    "effect": {
+                        "effect": "nausea",
+                        "duration": 200,
+                        "amplifier": 1,
+                        "is_ambient": true
+                    }
+                },
+                {
+                    "type": "apoli:change_resource",
+                    "resource": "*:*_res",
+                    "operation": "set",
+                    "change": 0
+                }
+            ]
+        }
+    }
+}

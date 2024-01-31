@@ -1,0 +1,100 @@
+{
+    "name": "Cycle moves",
+    "description": "Cycle to the right or left depending on whether you're sneaking or not.",
+    "type": "apoli:active_self",
+    "entity_action": {
+        "type": "apoli:if_else",
+        "condition": {
+            "type": "origins:power",
+            "power": "*:status/repeating_move",
+            "source": "cobblemorigins:status",
+            "inverted": true
+        },
+        "if_action": {
+            "type": "apoli:if_else",
+            "condition": {
+                "type": "apoli:sneaking",
+                "inverted": true
+            },
+            "if_action": {
+                "type": "apoli:and",
+                "actions": [
+                    {
+                        "type": "origins:revoke_all_powers",
+                        "source": "cobblemorigins:move"
+                    },
+                    {
+                        "type": "apoli:execute_command",
+                        "command": "function cobblemorigins:get_name"
+                    },
+                    {
+                        "type": "apoli:execute_command",
+                        "command": "function cobblemorigins:cycle_right with storage cobblemorigins:moves"
+                    },
+                    {
+                        "type": "apoli:execute_command",
+                        "command": "function cobblemorigins:grant_move with storage cobblemorigins:moves"
+                    },
+                    {
+                        "type": "apoli:if_else",
+                        "condition": {
+                            "type": "apoli:resource",
+                            "resource": "*:learn_move_cool",
+                            "comparison": ">",
+                            "compare_to": 0
+                        },
+                        "if_action": {
+                            "type": "apoli:change_resource",
+                            "resource": "*:learn_move_cool",
+                            "operation": "set",
+                            "change": 80
+                        }
+                    }
+                ]
+            },
+            "else_action": {
+                "type": "apoli:and",
+                "actions": [
+                    {
+                        "type": "origins:revoke_all_powers",
+                        "source": "cobblemorigins:move"
+                    },
+                    {
+                        "type": "apoli:execute_command",
+                        "command": "function cobblemorigins:get_name"
+                    },
+                    {
+                        "type": "apoli:execute_command",
+                        "command": "function cobblemorigins:cycle_left with storage cobblemorigins:moves"
+                    },
+                    {
+                        "type": "apoli:execute_command",
+                        "command": "function cobblemorigins:grant_move with storage cobblemorigins:moves"
+                    },
+                    {
+                        "type": "apoli:if_else",
+                        "condition": {
+                            "type": "apoli:resource",
+                            "resource": "*:learn_move_cool",
+                            "comparison": ">",
+                            "compare_to": 0
+                        },
+                        "if_action": {
+                            "type": "apoli:change_resource",
+                            "resource": "*:learn_move_cool",
+                            "operation": "set",
+                            "change": 80
+                        }
+                    }
+                ]
+            }
+        },
+        "else_action": {
+            "type": "apoli:execute_command",
+            "command": "say Can't switch moves!"
+        }
+    },
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+}

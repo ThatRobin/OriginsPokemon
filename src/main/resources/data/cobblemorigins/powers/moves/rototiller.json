@@ -1,0 +1,112 @@
+{
+    "type": "apoli:active_self",
+    "name": "Rototiller",
+    "move_data": "cobblemorigins:ground",
+    "entity_action": {
+        "type": "apoli:and",
+        "actions": [
+            {
+                "type": "apoli:execute_command",
+                "command": "fill ~2 ~-0.5 ~2 ~-2 ~-0.5 ~-2 farmland replace #dirt"
+            },
+            {
+                "type": "apoli:execute_command",
+                "command": "particle minecraft:dust 0.74 0.53 0.35 2 ~ ~0.2 ~ 1.5 0 1.5 0 100"
+            },
+            {
+                "type": "apoli:play_sound",
+                "sound": "item.hoe.till",
+                "pitch": 0.5
+            },
+            {
+                "type": "apoli:delay",
+                "ticks": 1,
+                "action": {
+                    "type": "apoli:play_sound",
+                    "sound": "block.gravel.break",
+                    "pitch": 0.5
+                }
+            },
+            {
+                "type": "apoli:delay",
+                "ticks": 2,
+                "action": {
+                    "type": "apoli:play_sound",
+                    "sound": "block.gravel.break",
+                    "pitch": 0.5
+                }
+            },
+            {
+                "type": "apoli:delay",
+                "ticks": 3,
+                "action": {
+                    "type": "apoli:play_sound",
+                    "sound": "block.gravel.break",
+                    "pitch": 0.5
+                }
+            },
+            {
+                "type": "apoli:area_of_effect",
+                "radius": 4,
+                "bientity_action": {
+                    "type": "apoli:target_action",
+                    "action": {
+                        "type": "apoli:and",
+                        "actions": [
+                            {
+                                "type": "apoli:grant_power",
+                                "power": "*:stat_modifier",
+                                "source": "cobblemorigins:stat"
+                            },
+                            {
+                                "type": "apoli:change_resource",
+                                "resource": "*:stat_modifier_attack_res",
+                                "operation": "add",
+                                "change": 1
+                            },
+                            {
+                                "type": "apoli:change_resource",
+                                "resource": "*:stat_modifier_special_attack_res",
+                                "operation": "add",
+                                "change": 1
+                            }
+                        ]
+                    }
+                },
+                "bientity_condition": {
+                    "type": "apoli:target_condition",
+                    "condition": {
+                        "type": "apoli:and",
+                        "conditions": [
+                            {
+                                "type": "apoli:living"
+                            },
+                            {
+                                "type": "apoli:power",
+                                "power": "*:types/grass"
+                            },
+                            {
+                                "type": "apoli:or",
+                                "conditions": [
+                                    {
+                                        "type": "apoli:on_block"
+                                    },
+                                    {
+                                        "type": "apoli:in_block",
+                                        "block_condition": {
+                                            "type": "origins:offset",
+                                            "y": -1,
+                                            "condition": {
+                                                "type": "apoli:movement_blocking"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "hidden": true,
+    "type": "apoli:action_on_callback",
+    "entity_action_gained": {
+        "type": "apoli:and",
+        "actions": [
+            {
+                "type": "apoli:execute_command",
+                "command": "say venasaur chosen"
+            }
+        ]
+    },
+    "entity_action_lost": {
+        "type": "origins:revoke_all_powers",
+        "source": "cobblemorigins:move"
+    }
+}

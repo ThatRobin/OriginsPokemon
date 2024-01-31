@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"cobblemorigins:abilities/chlorophyll"
+	],
+	"icon": "minecraft:daylight_detector",
+	"order": 2,
+	"impact": 0,
+	"name": "Chlorophyll",
+	"description": " "
+}
